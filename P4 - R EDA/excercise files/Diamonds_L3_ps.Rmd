@@ -1,0 +1,127 @@
+---
+title: "Diamond_dataset_ps"
+author: "Prasad"
+date: "January 12, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+```{r cars}
+library(ggplot2)
+data("diamonds")
+
+summary(diamonds)
+
+names(diamonds)
+
+?diamonds
+
+ggplot(aes(x=price), data = diamonds) +
+  geom_histogram(color = 'black', fill = '#F79420')
+
+summary(diamonds$price)
+
+diamonds_500 <- subset(diamonds, diamonds$price < 500)
+
+length(diamonds_500)
+
+dim(diamonds_500)
+
+diamonds_15k <- subset(diamonds, diamonds$price >= 15000)
+
+dim(diamonds_15k)
+
+ggplot(aes(x=price), data = diamonds) +
+  geom_histogram(binwidth = 50,color = 'black', fill = '#F79420')+
+  scale_x_continuous(breaks = seq(300, 2500, 100), limits = c(0, 2500))
+
+ggplot(aes(x = friend_count, y = cut), data = diamonds) + 
+  geom_histogram(aes(color = gender), binwidth=10) + 
+  scale_x_continuous(limits = c(0, 1000), breaks = seq(0, 1000, 50)) + 
+  xlab('Friend Count') + 
+  ylab('Percentage of users with that friend count')
+
+library(gridExtra)
+
+ggplot(aes(x = price), data = diamonds) +
+  geom_histogram() +
+  facet_wrap(~cut,scales="free_y")
+
+by(diamonds$price, diamonds$cut, max)
+by(diamonds$price, diamonds$cut, min)
+by(diamonds$price, diamonds$cut, median)
+
+ggplot(aes(x = price), data = diamonds) +
+  geom_histogram(binwidth = .10) +
+  scale_x_log10()+
+  facet_wrap(~cut,scales="free_y")
+
+# Box plot by clarity
+ggplot(data = diamonds,aes(x = clarity,y = price)) +
+  geom_boxplot(color = 'black', fill = '#F79420') +
+  coord_cartesian(ylim = c(0,8000))
+by(diamonds$price,diamonds$clarity, summary)
+
+ggplot(data = diamonds,aes(x = color,y = price)) +
+  geom_boxplot(color = 'black', fill = '#F79420') +
+  coord_cartesian(ylim = c(0,8000))
+by(diamonds$price,diamonds$color, summary)
+
+IQR(subset(diamonds, color == 'D')$price) 
+?diamonds
+
+#Frequency polygon
+ggplot(data=diamonds, aes(x=carat)) +
+  geom_freqpoly() +
+  scale_y_continuous(limits = c(0, 10000), breaks = seq(0, 15000, 2000))+
+  scale_x_continuous(limits = c(0,2), breaks = seq(0,2,0.1))+
+  geom_hline(yintercept = 2000)
+
+gdp = read.csv('indicator CM_MKT_LCAP_GD_ZS.xls')
+getwd()
+setwd('C:/Users/PrasadPagade/Downloads')
+getwd()
+
+suicide = read.csv('Suicide.csv')
+
+names(suicide)
+
+head(suicide)
+
+#Lets make plot for countries that have data
+ggplot(aes(x=price), data = diamonds) +
+  geom_histogram(binwidth = 50,color = 'black', fill = '#F79420')+
+  scale_x_continuous(breaks = seq(300, 2500, 100), limits = c(0, 2500))
+
+ggplot(data = suicide, aes(x = X2008)) +
+  geom_histogram(binwidth = 4,color = 'black', fill = '#F79420')+
+  scale_x_continuous()
+
+getwd()
+
+
+
+```

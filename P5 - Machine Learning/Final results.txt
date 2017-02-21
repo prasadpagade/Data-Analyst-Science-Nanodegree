@@ -1,0 +1,112 @@
+Final results:
+
+Kmeans clustering:
+Best estimator: 
+Pipeline(steps=[('min_max_scaler', MinMaxScaler(copy=True, feature_range=(0, 1))), ('select_KBest', SelectKBest(k=1, score_func=<function f_classif at 0x0000000008E767B8>)), ('kmeans', KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
+    n_clusters=4, n_init=5, n_jobs=1, precompute_distances='auto',
+    random_state=None, tol=0.0001, verbose=0))])
+
+Best score: -0.210
+Best parameters set:
+	kmeans__n_clusters: 4
+	kmeans__n_init: 5
+	select_KBest__k: 1
+ 
+Selected Features ['exercised_stock_options']
+Feature Scores [24.815079733218194]
+
+SVM:
+Best estimator: 
+Pipeline(steps=[('min_max_scaler', MinMaxScaler(copy=True, feature_range=(0, 1))), ('select_KBest', SelectKBest(k=5, score_func=<function f_classif at 0x0000000008EA9828>)), ('svc', SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.05, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False))])
+
+Best score: 0.867
+Best parameters set:
+	select_KBest__k: 5
+	svc__C: 10
+	svc__gamma: 0.05
+	svc__kernel: 'rbf'
+ 
+Selected Features ['bonus', 'exercised_stock_options', 'salary', 'total_stock_value', 'fraction_to_poi']
+Feature Scores [20.792252047181535, 24.815079733218194, 18.289684043404513, 24.182898678566879, 16.409712548035792]
+
+
+
+RESULT
+Random Tree:
+
+Accuracy: 0.86227	Precision: 0.45147	Recall: 0.15350	F1: 0.22910	F2: 0.17684
+Total predictions: 15000	True positives:  307	False positives:  373	False negatives: 1693	True negatives: 12627
+
+Decision Tree:
+Best estimator: 
+Pipeline(steps=[('min_max_scaler', MinMaxScaler(copy=True, feature_range=(0, 1))), ('select_KBest', SelectKBest(k=8, score_func=<function f_classif at 0x0000000008ED1828>)), ('tree', DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=1, max_leaf_nodes=None, min_impurity_split=1e-07,
+            min_samples_leaf=1, min_samples_split=10,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=None,
+            splitter='best'))])
+
+Best score: 0.860
+Best parameters set:
+	select_KBest__k: 8
+	tree__criterion: 'gini'
+	tree__max_features: 1
+	tree__min_samples_split: 10
+ 
+Selected Features ['bonus', 'deferred_income', 'exercised_stock_options', 'long_term_incentive', 'restricted_stock', 'salary', 'total_stock_value', 'fraction_to_poi']
+Feature Scores [20.792252047181535, 11.458476579280369, 24.815079733218194, 9.9221860131898225, 9.2128106219771002, 18.289684043404513, 24.182898678566879, 16.409712548035792]
+
+Random Forest:
+Best score: 0.895
+Best parameters set:
+	random_forest__criterion: 'gini'
+	random_forest__max_features: 1
+	random_forest__n_estimators: 10
+	select_KBest__k: 6
+ 
+Selected Features ['bonus', 'deferred_income', 'exercised_stock_options', 'salary', 'total_stock_value', 'fraction_to_poi']
+Feature Scores [20.792252047181535, 11.458476579280369, 24.815079733218194, 18.289684043404513, 24.182898678566879, 16.409712548035792]
+
+K-nearest-neighbor:
+Best score: 0.881
+Best parameters set:
+	knc__algorithm: 'auto'
+	knc__leaf_size: 1
+	knc__n_neighbors: 2
+	select_KBest__k: 3
+ 
+Selected Features ['bonus', 'exercised_stock_options', 'total_stock_value']
+Feature Scores [20.792252047181535, 24.815079733218194, 24.182898678566879]
+
+Ada Boost:
+Best score: 0.280
+Best parameters set:
+	ada__algorithm: 'SAMME.R'
+	ada__learning_rate: 5
+	ada__n_estimators: 90
+	select_KBest__k: 3
+ 
+Selected Features ['bonus', 'exercised_stock_options', 'total_stock_value']
+Feature Scores [20.792252047181535, 24.815079733218194, 24.182898678566879]
+
+Logistic regression:
+Best estimator: 
+Pipeline(steps=[('min_max_scaler', MinMaxScaler(copy=True, feature_range=(0, 1))), ('select_KBest', SelectKBest(k=10, score_func=<function f_classif at 0x0000000008EB27B8>)), ('logistic_regression', LogisticRegression(C=1, class_weight={False: 1, True: 2}, dual=True,
+          fit_intercept=False, intercept_scaling=1, max_iter=100,
+          multi_class='ovr', n_jobs=1, penalty='l2', random_state=None,
+          solver='liblinear', tol=0.0001, verbose=0, warm_start=False))])
+
+Best score: 0.853
+Best parameters set:
+	logistic_regression__C: 1
+	logistic_regression__class_weight: {False: 1, True: 2}
+	logistic_regression__dual: True
+	logistic_regression__fit_intercept: False
+	logistic_regression__penalty: 'l2'
+	select_KBest__k: 10
+ 
+Selected Features ['bonus', 'deferred_income', 'exercised_stock_options', 'long_term_incentive', 'restricted_stock', 'salary', 'total_payments', 'total_stock_value', 'shared_receipt_with_poi', 'fraction_to_poi']
+Feature Scores [20.792252047181535, 11.458476579280369, 24.815079733218194, 9.9221860131898225, 9.2128106219771002, 18.289684043404513, 8.7727777300916756, 24.182898678566879, 8.589420731682381, 16.409712548035792]
+

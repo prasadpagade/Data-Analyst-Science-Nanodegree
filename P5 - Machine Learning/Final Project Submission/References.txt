@@ -1,0 +1,7 @@
+Forums:
+https://discussions.udacity.com/t/final-project-getting-error-in-gridsearchcv/221595/7
+
+skelearn documentation:
+http://scikit-learn.org/stable/auto_examples/svm/plot_rbf_parameters.html#sphx-glr-auto-examples-svm-plot-rbf-parameters-py
+http://scikit-learn.org/stable/modules/generated/sklearn.grid_search.GridSearchCV.html
+

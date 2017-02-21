@@ -1,0 +1,110 @@
+---
+title: "ProblemSet:Explore More Vars"
+author: "Prasad"
+date: "January 20, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+head(diamonds)
+
+```
+```{r diamonds8}
+ggplot(data=diamonds,aes(log(price)))+
+  geom_histogram(aes(fill=cut))+
+  facet_wrap(~color)+
+  scale_fill_brewer(type = 'qual')
+
+```
+```{r diamonds7}
+ggplot(data = diamonds, aes(x= table, y=price))+
+ geom_point(aes(color = cut))+
+ scale_fill_brewer(type = 'qual')+
+ scale_x_continuous(limits=c(40,80),breaks = seq(40,80,2))
+
+```
+
+```{r diamonds6}
+diamonds <- mutate(diamonds,volume = x*y*z)
+names(diamonds)
+diamonds_sub <- subset(data=diamonds,diamonds$volume<=quantile(diamonds$volume,0.99))
+
+ggplot(data=subset(diamonds,volume<=quantile(volume,0.99)),aes(x=volume,y=price))+
+  geom_point(aes(color=clarity))+
+  coord_trans(y='log10')+
+  scale_color_brewer(type = 'div')
+  
+  
+
+```
+
+
+
+```{r diamonds5}
+head(pf)
+
+pf<- mutate(pf,prop_initiated = friendships_initiated/friend_count)
+
+pf <transform(pf,prop_initiated = ifelse(friend_count==0,0,friendships_initiated/friend_count))
+
+pf$prop_initiated = pf$friendships_initiated / pf$friend_count
+pf$prop_initiated[is.nan(pf$prop_initiated)] <- 0
+
+head(pf,10)
+```
+
+
+```{r diamonds4}
+ggplot(data = subset(pf,pf$tenure>=1& !is.na(year_joined.bucket)),aes(x=90*round(tenure/90),y=prop_initiated))+
+  geom_line(aes(color = year_joined.bucket), stat = 'summary',fun.y = mean)
+  
+```
+
+```{r diamonds3}
+ggplot(data=diamonds,aes(cut,price/carat))+
+  geom_jitter(aes(color=color),alpha=1/50)+
+  scale_color_brewer(type = 'div')+
+  facet_wrap(~clarity)
+
+```
+
+```{r diamonds2}
+s <- read.csv('Suicide.csv')
+
+head(s)
+```
+
+```{r diamonds1,, echo=FALSE}
+#change the column name
+s['Suicide.30.44.all.age.adj'] <- 'Country'
+
+names(s)[names(s) == 'Suicide.30.44.all.age.adj'] <- "country"
+
+names(s)
+
+
+library(GGally)
+set.seed(1836)
+pf_subset <- s[ , c(50:60)]
+ggpairs(pf_subset[sample.int(nrow(pf_subset),10),])
+```
+
+

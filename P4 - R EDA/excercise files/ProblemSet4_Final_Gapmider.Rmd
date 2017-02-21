@@ -1,0 +1,70 @@
+---
+title: "Problem Set4"
+author: "Prasad"
+date: "January 18, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+library(xlsx)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+
+install.packages("xlsx")
+
+R.version 
+
+Sys.setenv(JAVA_HOME='C:\\Program Files\\Java\\jre1.8.0_121')
+
+getwd()
+
+unemp <- read.xlsx('Unemployment.xlsx',1)
+
+View(unemp)
+
+names(unemp)
+
+unemp <- gather(unemp,"years","unemployment_rate",2:26)
+
+unemp <- subset(unemp,!is.na(unemp$unemployment_rate))
+
+names(unemp)[names(unemp) == 'Total.15.24.unemployment....'] <- "country"
+
+names(unemp)[names(unemp) == 'Total.15.24.unemployment....'] <- "country"
+
+by(unemp$unemployment_rate,unemp$years,summary)
+
+ggplot(data=unemp,aes(country,unemployment_rate),fill=unemp$country)+
+  geom_boxplot(color='blue')+
+  scale_x_discrete()
+ 
+
+qplot(x = unemployment_rate, data = unemp, 
+xlab = "Unemployment Rate",
+ylab = "Count of Unemployment Rate by Year (1981-2005)", 
+color = years) + 
+facet_wrap(~country)
+
+
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

@@ -1,0 +1,87 @@
+---
+title: "ProblemSet"
+author: "Prasad"
+date: "January 11, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+```{r}
+summary(mtcars)
+```
+```{r}
+efficient <- subset(mtcars, mpg >= 23)
+efficient
+dim(efficient)
+```
+than 30 miles per gallon (mpg) and have more than 100 raw horsepower.
+```{r}
+subset(mtcars, mpg > 30 & hp > 100)
+```
+```{r}
+subset(mtcars, mpg < 14 | disp > 390)
+```
+
+```{r}
+subset(mtcars, qsec <= 16.9)
+```
+
+```{r}
+lightcars <- subset(mtcars, wt <2)
+lightcars
+```
+
+```{r}
+mtcars$year <- 1974
+head(mtcars)
+```
+```{r}
+mtcars <- subset(mtcars, select = -year)
+```
+```{r}
+mtcars$year <- c(1973, 1974)
+(mtcars)
+```
+```{r}
+mtcars <- subset(mtcars, select = -year) 
+```
+```{r}
+mtcars$wt
+cond <- mtcars$wt < 3
+cond
+mtcars$weight_class <- ifelse(cond, 'light', 'average')
+mtcars$weight_class
+cond <- mtcars$wt > 3.5
+mtcars$weight_class <- ifelse(cond, 'heavy', mtcars$weight_class)
+mtcars$weight_class
+```
+```{r}
+rm(cond)
+rm(efficient)
+```
+```{r}
+subset(mtcars, mpg >=30 | hp < 60)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
