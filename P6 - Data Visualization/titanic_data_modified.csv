@@ -1,0 +1,892 @@
+,PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Cabin,Embarked,Survived_Text,person,Alone
+0,1,0,Lower Class,"Braund, Mr. Owen Harris",male,22.0,1,0,A/5 21171,7.25,,Southampton,Perished,male,With Family
+1,2,1,Upper Class,"Cumings, Mrs. John Bradley (Florence Briggs Thayer)",female,38.0,1,0,PC 17599,71.2833,C85,Cherbourg,Survived,female,With Family
+2,3,1,Lower Class,"Heikkinen, Miss. Laina",female,26.0,0,0,STON/O2. 3101282,7.925,,Southampton,Survived,female,Alone
+3,4,1,Upper Class,"Futrelle, Mrs. Jacques Heath (Lily May Peel)",female,35.0,1,0,113803,53.1,C123,Southampton,Survived,female,With Family
+4,5,0,Lower Class,"Allen, Mr. William Henry",male,35.0,0,0,373450,8.05,,Southampton,Perished,male,Alone
+5,6,0,Lower Class,"Moran, Mr. James",male,,0,0,330877,8.4583,,Queenstown,Perished,male,Alone
+6,7,0,Upper Class,"McCarthy, Mr. Timothy J",male,54.0,0,0,17463,51.8625,E46,Southampton,Perished,male,Alone
+7,8,0,Lower Class,"Palsson, Master. Gosta Leonard",male,2.0,3,1,349909,21.075,,Southampton,Perished,child,With Family
+8,9,1,Lower Class,"Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)",female,27.0,0,2,347742,11.1333,,Southampton,Survived,female,With Family
+9,10,1,Middle Class,"Nasser, Mrs. Nicholas (Adele Achem)",female,14.0,1,0,237736,30.0708,,Cherbourg,Survived,child,With Family
+10,11,1,Lower Class,"Sandstrom, Miss. Marguerite Rut",female,4.0,1,1,PP 9549,16.7,G6,Southampton,Survived,child,With Family
+11,12,1,Upper Class,"Bonnell, Miss. Elizabeth",female,58.0,0,0,113783,26.55,C103,Southampton,Survived,female,Alone
+12,13,0,Lower Class,"Saundercock, Mr. William Henry",male,20.0,0,0,A/5. 2151,8.05,,Southampton,Perished,male,Alone
+13,14,0,Lower Class,"Andersson, Mr. Anders Johan",male,39.0,1,5,347082,31.275,,Southampton,Perished,male,With Family
+14,15,0,Lower Class,"Vestrom, Miss. Hulda Amanda Adolfina",female,14.0,0,0,350406,7.8542,,Southampton,Perished,child,Alone
+15,16,1,Middle Class,"Hewlett, Mrs. (Mary D Kingcome) ",female,55.0,0,0,248706,16.0,,Southampton,Survived,female,Alone
+16,17,0,Lower Class,"Rice, Master. Eugene",male,2.0,4,1,382652,29.125,,Queenstown,Perished,child,With Family
+17,18,1,Middle Class,"Williams, Mr. Charles Eugene",male,,0,0,244373,13.0,,Southampton,Survived,male,Alone
+18,19,0,Lower Class,"Vander Planke, Mrs. Julius (Emelia Maria Vandemoortele)",female,31.0,1,0,345763,18.0,,Southampton,Perished,female,With Family
+19,20,1,Lower Class,"Masselmani, Mrs. Fatima",female,,0,0,2649,7.225,,Cherbourg,Survived,female,Alone
+20,21,0,Middle Class,"Fynney, Mr. Joseph J",male,35.0,0,0,239865,26.0,,Southampton,Perished,male,Alone
+21,22,1,Middle Class,"Beesley, Mr. Lawrence",male,34.0,0,0,248698,13.0,D56,Southampton,Survived,male,Alone
+22,23,1,Lower Class,"McGowan, Miss. Anna ""Annie""",female,15.0,0,0,330923,8.0292,,Queenstown,Survived,child,Alone
+23,24,1,Upper Class,"Sloper, Mr. William Thompson",male,28.0,0,0,113788,35.5,A6,Southampton,Survived,male,Alone
+24,25,0,Lower Class,"Palsson, Miss. Torborg Danira",female,8.0,3,1,349909,21.075,,Southampton,Perished,child,With Family
+25,26,1,Lower Class,"Asplund, Mrs. Carl Oscar (Selma Augusta Emilia Johansson)",female,38.0,1,5,347077,31.3875,,Southampton,Survived,female,With Family
+26,27,0,Lower Class,"Emir, Mr. Farred Chehab",male,,0,0,2631,7.225,,Cherbourg,Perished,male,Alone
+27,28,0,Upper Class,"Fortune, Mr. Charles Alexander",male,19.0,3,2,19950,263.0,C23 C25 C27,Southampton,Perished,male,With Family
+28,29,1,Lower Class,"O'Dwyer, Miss. Ellen ""Nellie""",female,,0,0,330959,7.8792,,Queenstown,Survived,female,Alone
+29,30,0,Lower Class,"Todoroff, Mr. Lalio",male,,0,0,349216,7.8958,,Southampton,Perished,male,Alone
+30,31,0,Upper Class,"Uruchurtu, Don. Manuel E",male,40.0,0,0,PC 17601,27.7208,,Cherbourg,Perished,male,Alone
+31,32,1,Upper Class,"Spencer, Mrs. William Augustus (Marie Eugenie)",female,,1,0,PC 17569,146.5208,B78,Cherbourg,Survived,female,With Family
+32,33,1,Lower Class,"Glynn, Miss. Mary Agatha",female,,0,0,335677,7.75,,Queenstown,Survived,female,Alone
+33,34,0,Middle Class,"Wheadon, Mr. Edward H",male,66.0,0,0,C.A. 24579,10.5,,Southampton,Perished,male,Alone
+34,35,0,Upper Class,"Meyer, Mr. Edgar Joseph",male,28.0,1,0,PC 17604,82.1708,,Cherbourg,Perished,male,With Family
+35,36,0,Upper Class,"Holverson, Mr. Alexander Oskar",male,42.0,1,0,113789,52.0,,Southampton,Perished,male,With Family
+36,37,1,Lower Class,"Mamee, Mr. Hanna",male,,0,0,2677,7.2292,,Cherbourg,Survived,male,Alone
+37,38,0,Lower Class,"Cann, Mr. Ernest Charles",male,21.0,0,0,A./5. 2152,8.05,,Southampton,Perished,male,Alone
+38,39,0,Lower Class,"Vander Planke, Miss. Augusta Maria",female,18.0,2,0,345764,18.0,,Southampton,Perished,female,With Family
+39,40,1,Lower Class,"Nicola-Yarred, Miss. Jamila",female,14.0,1,0,2651,11.2417,,Cherbourg,Survived,child,With Family
+40,41,0,Lower Class,"Ahlin, Mrs. Johan (Johanna Persdotter Larsson)",female,40.0,1,0,7546,9.475,,Southampton,Perished,female,With Family
+41,42,0,Middle Class,"Turpin, Mrs. William John Robert (Dorothy Ann Wonnacott)",female,27.0,1,0,11668,21.0,,Southampton,Perished,female,With Family
+42,43,0,Lower Class,"Kraeff, Mr. Theodor",male,,0,0,349253,7.8958,,Cherbourg,Perished,male,Alone
+43,44,1,Middle Class,"Laroche, Miss. Simonne Marie Anne Andree",female,3.0,1,2,SC/Paris 2123,41.5792,,Cherbourg,Survived,child,With Family
+44,45,1,Lower Class,"Devaney, Miss. Margaret Delia",female,19.0,0,0,330958,7.8792,,Queenstown,Survived,female,Alone
+45,46,0,Lower Class,"Rogers, Mr. William John",male,,0,0,S.C./A.4. 23567,8.05,,Southampton,Perished,male,Alone
+46,47,0,Lower Class,"Lennon, Mr. Denis",male,,1,0,370371,15.5,,Queenstown,Perished,male,With Family
+47,48,1,Lower Class,"O'Driscoll, Miss. Bridget",female,,0,0,14311,7.75,,Queenstown,Survived,female,Alone
+48,49,0,Lower Class,"Samaan, Mr. Youssef",male,,2,0,2662,21.6792,,Cherbourg,Perished,male,With Family
+49,50,0,Lower Class,"Arnold-Franchi, Mrs. Josef (Josefine Franchi)",female,18.0,1,0,349237,17.8,,Southampton,Perished,female,With Family
+50,51,0,Lower Class,"Panula, Master. Juha Niilo",male,7.0,4,1,3101295,39.6875,,Southampton,Perished,child,With Family
+51,52,0,Lower Class,"Nosworthy, Mr. Richard Cater",male,21.0,0,0,A/4. 39886,7.8,,Southampton,Perished,male,Alone
+52,53,1,Upper Class,"Harper, Mrs. Henry Sleeper (Myna Haxtun)",female,49.0,1,0,PC 17572,76.7292,D33,Cherbourg,Survived,female,With Family
+53,54,1,Middle Class,"Faunthorpe, Mrs. Lizzie (Elizabeth Anne Wilkinson)",female,29.0,1,0,2926,26.0,,Southampton,Survived,female,With Family
+54,55,0,Upper Class,"Ostby, Mr. Engelhart Cornelius",male,65.0,0,1,113509,61.9792,B30,Cherbourg,Perished,male,With Family
+55,56,1,Upper Class,"Woolner, Mr. Hugh",male,,0,0,19947,35.5,C52,Southampton,Survived,male,Alone
+56,57,1,Middle Class,"Rugg, Miss. Emily",female,21.0,0,0,C.A. 31026,10.5,,Southampton,Survived,female,Alone
+57,58,0,Lower Class,"Novel, Mr. Mansouer",male,28.5,0,0,2697,7.2292,,Cherbourg,Perished,male,Alone
+58,59,1,Middle Class,"West, Miss. Constance Mirium",female,5.0,1,2,C.A. 34651,27.75,,Southampton,Survived,child,With Family
+59,60,0,Lower Class,"Goodwin, Master. William Frederick",male,11.0,5,2,CA 2144,46.9,,Southampton,Perished,child,With Family
+60,61,0,Lower Class,"Sirayanian, Mr. Orsen",male,22.0,0,0,2669,7.2292,,Cherbourg,Perished,male,Alone
+61,62,1,Upper Class,"Icard, Miss. Amelie",female,38.0,0,0,113572,80.0,B28,Southampton,Survived,female,Alone
+62,63,0,Upper Class,"Harris, Mr. Henry Birkhardt",male,45.0,1,0,36973,83.475,C83,Southampton,Perished,male,With Family
+63,64,0,Lower Class,"Skoog, Master. Harald",male,4.0,3,2,347088,27.9,,Southampton,Perished,child,With Family
+64,65,0,Upper Class,"Stewart, Mr. Albert A",male,,0,0,PC 17605,27.7208,,Cherbourg,Perished,male,Alone
+65,66,1,Lower Class,"Moubarek, Master. Gerios",male,,1,1,2661,15.2458,,Cherbourg,Survived,male,With Family
+66,67,1,Middle Class,"Nye, Mrs. (Elizabeth Ramell)",female,29.0,0,0,C.A. 29395,10.5,F33,Southampton,Survived,female,Alone
+67,68,0,Lower Class,"Crease, Mr. Ernest James",male,19.0,0,0,S.P. 3464,8.1583,,Southampton,Perished,male,Alone
+68,69,1,Lower Class,"Andersson, Miss. Erna Alexandra",female,17.0,4,2,3101281,7.925,,Southampton,Survived,female,With Family
+69,70,0,Lower Class,"Kink, Mr. Vincenz",male,26.0,2,0,315151,8.6625,,Southampton,Perished,male,With Family
+70,71,0,Middle Class,"Jenkin, Mr. Stephen Curnow",male,32.0,0,0,C.A. 33111,10.5,,Southampton,Perished,male,Alone
+71,72,0,Lower Class,"Goodwin, Miss. Lillian Amy",female,16.0,5,2,CA 2144,46.9,,Southampton,Perished,female,With Family
+72,73,0,Middle Class,"Hood, Mr. Ambrose Jr",male,21.0,0,0,S.O.C. 14879,73.5,,Southampton,Perished,male,Alone
+73,74,0,Lower Class,"Chronopoulos, Mr. Apostolos",male,26.0,1,0,2680,14.4542,,Cherbourg,Perished,male,With Family
+74,75,1,Lower Class,"Bing, Mr. Lee",male,32.0,0,0,1601,56.4958,,Southampton,Survived,male,Alone
+75,76,0,Lower Class,"Moen, Mr. Sigurd Hansen",male,25.0,0,0,348123,7.65,F G73,Southampton,Perished,male,Alone
+76,77,0,Lower Class,"Staneff, Mr. Ivan",male,,0,0,349208,7.8958,,Southampton,Perished,male,Alone
+77,78,0,Lower Class,"Moutal, Mr. Rahamin Haim",male,,0,0,374746,8.05,,Southampton,Perished,male,Alone
+78,79,1,Middle Class,"Caldwell, Master. Alden Gates",male,0.83,0,2,248738,29.0,,Southampton,Survived,child,With Family
+79,80,1,Lower Class,"Dowdell, Miss. Elizabeth",female,30.0,0,0,364516,12.475,,Southampton,Survived,female,Alone
+80,81,0,Lower Class,"Waelens, Mr. Achille",male,22.0,0,0,345767,9.0,,Southampton,Perished,male,Alone
+81,82,1,Lower Class,"Sheerlinck, Mr. Jan Baptist",male,29.0,0,0,345779,9.5,,Southampton,Survived,male,Alone
+82,83,1,Lower Class,"McDermott, Miss. Brigdet Delia",female,,0,0,330932,7.7875,,Queenstown,Survived,female,Alone
+83,84,0,Upper Class,"Carrau, Mr. Francisco M",male,28.0,0,0,113059,47.1,,Southampton,Perished,male,Alone
+84,85,1,Middle Class,"Ilett, Miss. Bertha",female,17.0,0,0,SO/C 14885,10.5,,Southampton,Survived,female,Alone
+85,86,1,Lower Class,"Backstrom, Mrs. Karl Alfred (Maria Mathilda Gustafsson)",female,33.0,3,0,3101278,15.85,,Southampton,Survived,female,With Family
+86,87,0,Lower Class,"Ford, Mr. William Neal",male,16.0,1,3,W./C. 6608,34.375,,Southampton,Perished,male,With Family
+87,88,0,Lower Class,"Slocovski, Mr. Selman Francis",male,,0,0,SOTON/OQ 392086,8.05,,Southampton,Perished,male,Alone
+88,89,1,Upper Class,"Fortune, Miss. Mabel Helen",female,23.0,3,2,19950,263.0,C23 C25 C27,Southampton,Survived,female,With Family
+89,90,0,Lower Class,"Celotti, Mr. Francesco",male,24.0,0,0,343275,8.05,,Southampton,Perished,male,Alone
+90,91,0,Lower Class,"Christmann, Mr. Emil",male,29.0,0,0,343276,8.05,,Southampton,Perished,male,Alone
+91,92,0,Lower Class,"Andreasson, Mr. Paul Edvin",male,20.0,0,0,347466,7.8542,,Southampton,Perished,male,Alone
+92,93,0,Upper Class,"Chaffee, Mr. Herbert Fuller",male,46.0,1,0,W.E.P. 5734,61.175,E31,Southampton,Perished,male,With Family
+93,94,0,Lower Class,"Dean, Mr. Bertram Frank",male,26.0,1,2,C.A. 2315,20.575,,Southampton,Perished,male,With Family
+94,95,0,Lower Class,"Coxon, Mr. Daniel",male,59.0,0,0,364500,7.25,,Southampton,Perished,male,Alone
+95,96,0,Lower Class,"Shorney, Mr. Charles Joseph",male,,0,0,374910,8.05,,Southampton,Perished,male,Alone
+96,97,0,Upper Class,"Goldschmidt, Mr. George B",male,71.0,0,0,PC 17754,34.6542,A5,Cherbourg,Perished,male,Alone
+97,98,1,Upper Class,"Greenfield, Mr. William Bertram",male,23.0,0,1,PC 17759,63.3583,D10 D12,Cherbourg,Survived,male,With Family
+98,99,1,Middle Class,"Doling, Mrs. John T (Ada Julia Bone)",female,34.0,0,1,231919,23.0,,Southampton,Survived,female,With Family
+99,100,0,Middle Class,"Kantor, Mr. Sinai",male,34.0,1,0,244367,26.0,,Southampton,Perished,male,With Family
+100,101,0,Lower Class,"Petranec, Miss. Matilda",female,28.0,0,0,349245,7.8958,,Southampton,Perished,female,Alone
+101,102,0,Lower Class,"Petroff, Mr. Pastcho (""Pentcho"")",male,,0,0,349215,7.8958,,Southampton,Perished,male,Alone
+102,103,0,Upper Class,"White, Mr. Richard Frasar",male,21.0,0,1,35281,77.2875,D26,Southampton,Perished,male,With Family
+103,104,0,Lower Class,"Johansson, Mr. Gustaf Joel",male,33.0,0,0,7540,8.6542,,Southampton,Perished,male,Alone
+104,105,0,Lower Class,"Gustafsson, Mr. Anders Vilhelm",male,37.0,2,0,3101276,7.925,,Southampton,Perished,male,With Family
+105,106,0,Lower Class,"Mionoff, Mr. Stoytcho",male,28.0,0,0,349207,7.8958,,Southampton,Perished,male,Alone
+106,107,1,Lower Class,"Salkjelsvik, Miss. Anna Kristine",female,21.0,0,0,343120,7.65,,Southampton,Survived,female,Alone
+107,108,1,Lower Class,"Moss, Mr. Albert Johan",male,,0,0,312991,7.775,,Southampton,Survived,male,Alone
+108,109,0,Lower Class,"Rekic, Mr. Tido",male,38.0,0,0,349249,7.8958,,Southampton,Perished,male,Alone
+109,110,1,Lower Class,"Moran, Miss. Bertha",female,,1,0,371110,24.15,,Queenstown,Survived,female,With Family
+110,111,0,Upper Class,"Porter, Mr. Walter Chamberlain",male,47.0,0,0,110465,52.0,C110,Southampton,Perished,male,Alone
+111,112,0,Lower Class,"Zabour, Miss. Hileni",female,14.5,1,0,2665,14.4542,,Cherbourg,Perished,child,With Family
+112,113,0,Lower Class,"Barton, Mr. David John",male,22.0,0,0,324669,8.05,,Southampton,Perished,male,Alone
+113,114,0,Lower Class,"Jussila, Miss. Katriina",female,20.0,1,0,4136,9.825,,Southampton,Perished,female,With Family
+114,115,0,Lower Class,"Attalah, Miss. Malake",female,17.0,0,0,2627,14.4583,,Cherbourg,Perished,female,Alone
+115,116,0,Lower Class,"Pekoniemi, Mr. Edvard",male,21.0,0,0,STON/O 2. 3101294,7.925,,Southampton,Perished,male,Alone
+116,117,0,Lower Class,"Connors, Mr. Patrick",male,70.5,0,0,370369,7.75,,Queenstown,Perished,male,Alone
+117,118,0,Middle Class,"Turpin, Mr. William John Robert",male,29.0,1,0,11668,21.0,,Southampton,Perished,male,With Family
+118,119,0,Upper Class,"Baxter, Mr. Quigg Edmond",male,24.0,0,1,PC 17558,247.5208,B58 B60,Cherbourg,Perished,male,With Family
+119,120,0,Lower Class,"Andersson, Miss. Ellis Anna Maria",female,2.0,4,2,347082,31.275,,Southampton,Perished,child,With Family
+120,121,0,Middle Class,"Hickman, Mr. Stanley George",male,21.0,2,0,S.O.C. 14879,73.5,,Southampton,Perished,male,With Family
+121,122,0,Lower Class,"Moore, Mr. Leonard Charles",male,,0,0,A4. 54510,8.05,,Southampton,Perished,male,Alone
+122,123,0,Middle Class,"Nasser, Mr. Nicholas",male,32.5,1,0,237736,30.0708,,Cherbourg,Perished,male,With Family
+123,124,1,Middle Class,"Webber, Miss. Susan",female,32.5,0,0,27267,13.0,E101,Southampton,Survived,female,Alone
+124,125,0,Upper Class,"White, Mr. Percival Wayland",male,54.0,0,1,35281,77.2875,D26,Southampton,Perished,male,With Family
+125,126,1,Lower Class,"Nicola-Yarred, Master. Elias",male,12.0,1,0,2651,11.2417,,Cherbourg,Survived,child,With Family
+126,127,0,Lower Class,"McMahon, Mr. Martin",male,,0,0,370372,7.75,,Queenstown,Perished,male,Alone
+127,128,1,Lower Class,"Madsen, Mr. Fridtjof Arne",male,24.0,0,0,C 17369,7.1417,,Southampton,Survived,male,Alone
+128,129,1,Lower Class,"Peter, Miss. Anna",female,,1,1,2668,22.3583,F E69,Cherbourg,Survived,female,With Family
+129,130,0,Lower Class,"Ekstrom, Mr. Johan",male,45.0,0,0,347061,6.975,,Southampton,Perished,male,Alone
+130,131,0,Lower Class,"Drazenoic, Mr. Jozef",male,33.0,0,0,349241,7.8958,,Cherbourg,Perished,male,Alone
+131,132,0,Lower Class,"Coelho, Mr. Domingos Fernandeo",male,20.0,0,0,SOTON/O.Q. 3101307,7.05,,Southampton,Perished,male,Alone
+132,133,0,Lower Class,"Robins, Mrs. Alexander A (Grace Charity Laury)",female,47.0,1,0,A/5. 3337,14.5,,Southampton,Perished,female,With Family
+133,134,1,Middle Class,"Weisz, Mrs. Leopold (Mathilde Francoise Pede)",female,29.0,1,0,228414,26.0,,Southampton,Survived,female,With Family
+134,135,0,Middle Class,"Sobey, Mr. Samuel James Hayden",male,25.0,0,0,C.A. 29178,13.0,,Southampton,Perished,male,Alone
+135,136,0,Middle Class,"Richard, Mr. Emile",male,23.0,0,0,SC/PARIS 2133,15.0458,,Cherbourg,Perished,male,Alone
+136,137,1,Upper Class,"Newsom, Miss. Helen Monypeny",female,19.0,0,2,11752,26.2833,D47,Southampton,Survived,female,With Family
+137,138,0,Upper Class,"Futrelle, Mr. Jacques Heath",male,37.0,1,0,113803,53.1,C123,Southampton,Perished,male,With Family
+138,139,0,Lower Class,"Osen, Mr. Olaf Elon",male,16.0,0,0,7534,9.2167,,Southampton,Perished,male,Alone
+139,140,0,Upper Class,"Giglio, Mr. Victor",male,24.0,0,0,PC 17593,79.2,B86,Cherbourg,Perished,male,Alone
+140,141,0,Lower Class,"Boulos, Mrs. Joseph (Sultana)",female,,0,2,2678,15.2458,,Cherbourg,Perished,female,With Family
+141,142,1,Lower Class,"Nysten, Miss. Anna Sofia",female,22.0,0,0,347081,7.75,,Southampton,Survived,female,Alone
+142,143,1,Lower Class,"Hakkarainen, Mrs. Pekka Pietari (Elin Matilda Dolck)",female,24.0,1,0,STON/O2. 3101279,15.85,,Southampton,Survived,female,With Family
+143,144,0,Lower Class,"Burke, Mr. Jeremiah",male,19.0,0,0,365222,6.75,,Queenstown,Perished,male,Alone
+144,145,0,Middle Class,"Andrew, Mr. Edgardo Samuel",male,18.0,0,0,231945,11.5,,Southampton,Perished,male,Alone
+145,146,0,Middle Class,"Nicholls, Mr. Joseph Charles",male,19.0,1,1,C.A. 33112,36.75,,Southampton,Perished,male,With Family
+146,147,1,Lower Class,"Andersson, Mr. August Edvard (""Wennerstrom"")",male,27.0,0,0,350043,7.7958,,Southampton,Survived,male,Alone
+147,148,0,Lower Class,"Ford, Miss. Robina Maggie ""Ruby""",female,9.0,2,2,W./C. 6608,34.375,,Southampton,Perished,child,With Family
+148,149,0,Middle Class,"Navratil, Mr. Michel (""Louis M Hoffman"")",male,36.5,0,2,230080,26.0,F2,Southampton,Perished,male,With Family
+149,150,0,Middle Class,"Byles, Rev. Thomas Roussel Davids",male,42.0,0,0,244310,13.0,,Southampton,Perished,male,Alone
+150,151,0,Middle Class,"Bateman, Rev. Robert James",male,51.0,0,0,S.O.P. 1166,12.525,,Southampton,Perished,male,Alone
+151,152,1,Upper Class,"Pears, Mrs. Thomas (Edith Wearne)",female,22.0,1,0,113776,66.6,C2,Southampton,Survived,female,With Family
+152,153,0,Lower Class,"Meo, Mr. Alfonzo",male,55.5,0,0,A.5. 11206,8.05,,Southampton,Perished,male,Alone
+153,154,0,Lower Class,"van Billiard, Mr. Austin Blyler",male,40.5,0,2,A/5. 851,14.5,,Southampton,Perished,male,With Family
+154,155,0,Lower Class,"Olsen, Mr. Ole Martin",male,,0,0,Fa 265302,7.3125,,Southampton,Perished,male,Alone
+155,156,0,Upper Class,"Williams, Mr. Charles Duane",male,51.0,0,1,PC 17597,61.3792,,Cherbourg,Perished,male,With Family
+156,157,1,Lower Class,"Gilnagh, Miss. Katherine ""Katie""",female,16.0,0,0,35851,7.7333,,Queenstown,Survived,female,Alone
+157,158,0,Lower Class,"Corn, Mr. Harry",male,30.0,0,0,SOTON/OQ 392090,8.05,,Southampton,Perished,male,Alone
+158,159,0,Lower Class,"Smiljanic, Mr. Mile",male,,0,0,315037,8.6625,,Southampton,Perished,male,Alone
+159,160,0,Lower Class,"Sage, Master. Thomas Henry",male,,8,2,CA. 2343,69.55,,Southampton,Perished,male,With Family
+160,161,0,Lower Class,"Cribb, Mr. John Hatfield",male,44.0,0,1,371362,16.1,,Southampton,Perished,male,With Family
+161,162,1,Middle Class,"Watt, Mrs. James (Elizabeth ""Bessie"" Inglis Milne)",female,40.0,0,0,C.A. 33595,15.75,,Southampton,Survived,female,Alone
+162,163,0,Lower Class,"Bengtsson, Mr. John Viktor",male,26.0,0,0,347068,7.775,,Southampton,Perished,male,Alone
+163,164,0,Lower Class,"Calic, Mr. Jovo",male,17.0,0,0,315093,8.6625,,Southampton,Perished,male,Alone
+164,165,0,Lower Class,"Panula, Master. Eino Viljami",male,1.0,4,1,3101295,39.6875,,Southampton,Perished,child,With Family
+165,166,1,Lower Class,"Goldsmith, Master. Frank John William ""Frankie""",male,9.0,0,2,363291,20.525,,Southampton,Survived,child,With Family
+166,167,1,Upper Class,"Chibnall, Mrs. (Edith Martha Bowerman)",female,,0,1,113505,55.0,E33,Southampton,Survived,female,With Family
+167,168,0,Lower Class,"Skoog, Mrs. William (Anna Bernhardina Karlsson)",female,45.0,1,4,347088,27.9,,Southampton,Perished,female,With Family
+168,169,0,Upper Class,"Baumann, Mr. John D",male,,0,0,PC 17318,25.925,,Southampton,Perished,male,Alone
+169,170,0,Lower Class,"Ling, Mr. Lee",male,28.0,0,0,1601,56.4958,,Southampton,Perished,male,Alone
+170,171,0,Upper Class,"Van der hoef, Mr. Wyckoff",male,61.0,0,0,111240,33.5,B19,Southampton,Perished,male,Alone
+171,172,0,Lower Class,"Rice, Master. Arthur",male,4.0,4,1,382652,29.125,,Queenstown,Perished,child,With Family
+172,173,1,Lower Class,"Johnson, Miss. Eleanor Ileen",female,1.0,1,1,347742,11.1333,,Southampton,Survived,child,With Family
+173,174,0,Lower Class,"Sivola, Mr. Antti Wilhelm",male,21.0,0,0,STON/O 2. 3101280,7.925,,Southampton,Perished,male,Alone
+174,175,0,Upper Class,"Smith, Mr. James Clinch",male,56.0,0,0,17764,30.6958,A7,Cherbourg,Perished,male,Alone
+175,176,0,Lower Class,"Klasen, Mr. Klas Albin",male,18.0,1,1,350404,7.8542,,Southampton,Perished,male,With Family
+176,177,0,Lower Class,"Lefebre, Master. Henry Forbes",male,,3,1,4133,25.4667,,Southampton,Perished,male,With Family
+177,178,0,Upper Class,"Isham, Miss. Ann Elizabeth",female,50.0,0,0,PC 17595,28.7125,C49,Cherbourg,Perished,female,Alone
+178,179,0,Middle Class,"Hale, Mr. Reginald",male,30.0,0,0,250653,13.0,,Southampton,Perished,male,Alone
+179,180,0,Lower Class,"Leonard, Mr. Lionel",male,36.0,0,0,LINE,0.0,,Southampton,Perished,male,Alone
+180,181,0,Lower Class,"Sage, Miss. Constance Gladys",female,,8,2,CA. 2343,69.55,,Southampton,Perished,female,With Family
+181,182,0,Middle Class,"Pernot, Mr. Rene",male,,0,0,SC/PARIS 2131,15.05,,Cherbourg,Perished,male,Alone
+182,183,0,Lower Class,"Asplund, Master. Clarence Gustaf Hugo",male,9.0,4,2,347077,31.3875,,Southampton,Perished,child,With Family
+183,184,1,Middle Class,"Becker, Master. Richard F",male,1.0,2,1,230136,39.0,F4,Southampton,Survived,child,With Family
+184,185,1,Lower Class,"Kink-Heilmann, Miss. Luise Gretchen",female,4.0,0,2,315153,22.025,,Southampton,Survived,child,With Family
+185,186,0,Upper Class,"Rood, Mr. Hugh Roscoe",male,,0,0,113767,50.0,A32,Southampton,Perished,male,Alone
+186,187,1,Lower Class,"O'Brien, Mrs. Thomas (Johanna ""Hannah"" Godfrey)",female,,1,0,370365,15.5,,Queenstown,Survived,female,With Family
+187,188,1,Upper Class,"Romaine, Mr. Charles Hallace (""Mr C Rolmane"")",male,45.0,0,0,111428,26.55,,Southampton,Survived,male,Alone
+188,189,0,Lower Class,"Bourke, Mr. John",male,40.0,1,1,364849,15.5,,Queenstown,Perished,male,With Family
+189,190,0,Lower Class,"Turcin, Mr. Stjepan",male,36.0,0,0,349247,7.8958,,Southampton,Perished,male,Alone
+190,191,1,Middle Class,"Pinsky, Mrs. (Rosa)",female,32.0,0,0,234604,13.0,,Southampton,Survived,female,Alone
+191,192,0,Middle Class,"Carbines, Mr. William",male,19.0,0,0,28424,13.0,,Southampton,Perished,male,Alone
+192,193,1,Lower Class,"Andersen-Jensen, Miss. Carla Christine Nielsine",female,19.0,1,0,350046,7.8542,,Southampton,Survived,female,With Family
+193,194,1,Middle Class,"Navratil, Master. Michel M",male,3.0,1,1,230080,26.0,F2,Southampton,Survived,child,With Family
+194,195,1,Upper Class,"Brown, Mrs. James Joseph (Margaret Tobin)",female,44.0,0,0,PC 17610,27.7208,B4,Cherbourg,Survived,female,Alone
+195,196,1,Upper Class,"Lurette, Miss. Elise",female,58.0,0,0,PC 17569,146.5208,B80,Cherbourg,Survived,female,Alone
+196,197,0,Lower Class,"Mernagh, Mr. Robert",male,,0,0,368703,7.75,,Queenstown,Perished,male,Alone
+197,198,0,Lower Class,"Olsen, Mr. Karl Siegwart Andreas",male,42.0,0,1,4579,8.4042,,Southampton,Perished,male,With Family
+198,199,1,Lower Class,"Madigan, Miss. Margaret ""Maggie""",female,,0,0,370370,7.75,,Queenstown,Survived,female,Alone
+199,200,0,Middle Class,"Yrois, Miss. Henriette (""Mrs Harbeck"")",female,24.0,0,0,248747,13.0,,Southampton,Perished,female,Alone
+200,201,0,Lower Class,"Vande Walle, Mr. Nestor Cyriel",male,28.0,0,0,345770,9.5,,Southampton,Perished,male,Alone
+201,202,0,Lower Class,"Sage, Mr. Frederick",male,,8,2,CA. 2343,69.55,,Southampton,Perished,male,With Family
+202,203,0,Lower Class,"Johanson, Mr. Jakob Alfred",male,34.0,0,0,3101264,6.4958,,Southampton,Perished,male,Alone
+203,204,0,Lower Class,"Youseff, Mr. Gerious",male,45.5,0,0,2628,7.225,,Cherbourg,Perished,male,Alone
+204,205,1,Lower Class,"Cohen, Mr. Gurshon ""Gus""",male,18.0,0,0,A/5 3540,8.05,,Southampton,Survived,male,Alone
+205,206,0,Lower Class,"Strom, Miss. Telma Matilda",female,2.0,0,1,347054,10.4625,G6,Southampton,Perished,child,With Family
+206,207,0,Lower Class,"Backstrom, Mr. Karl Alfred",male,32.0,1,0,3101278,15.85,,Southampton,Perished,male,With Family
+207,208,1,Lower Class,"Albimona, Mr. Nassef Cassem",male,26.0,0,0,2699,18.7875,,Cherbourg,Survived,male,Alone
+208,209,1,Lower Class,"Carr, Miss. Helen ""Ellen""",female,16.0,0,0,367231,7.75,,Queenstown,Survived,female,Alone
+209,210,1,Upper Class,"Blank, Mr. Henry",male,40.0,0,0,112277,31.0,A31,Cherbourg,Survived,male,Alone
+210,211,0,Lower Class,"Ali, Mr. Ahmed",male,24.0,0,0,SOTON/O.Q. 3101311,7.05,,Southampton,Perished,male,Alone
+211,212,1,Middle Class,"Cameron, Miss. Clear Annie",female,35.0,0,0,F.C.C. 13528,21.0,,Southampton,Survived,female,Alone
+212,213,0,Lower Class,"Perkin, Mr. John Henry",male,22.0,0,0,A/5 21174,7.25,,Southampton,Perished,male,Alone
+213,214,0,Middle Class,"Givard, Mr. Hans Kristensen",male,30.0,0,0,250646,13.0,,Southampton,Perished,male,Alone
+214,215,0,Lower Class,"Kiernan, Mr. Philip",male,,1,0,367229,7.75,,Queenstown,Perished,male,With Family
+215,216,1,Upper Class,"Newell, Miss. Madeleine",female,31.0,1,0,35273,113.275,D36,Cherbourg,Survived,female,With Family
+216,217,1,Lower Class,"Honkanen, Miss. Eliina",female,27.0,0,0,STON/O2. 3101283,7.925,,Southampton,Survived,female,Alone
+217,218,0,Middle Class,"Jacobsohn, Mr. Sidney Samuel",male,42.0,1,0,243847,27.0,,Southampton,Perished,male,With Family
+218,219,1,Upper Class,"Bazzani, Miss. Albina",female,32.0,0,0,11813,76.2917,D15,Cherbourg,Survived,female,Alone
+219,220,0,Middle Class,"Harris, Mr. Walter",male,30.0,0,0,W/C 14208,10.5,,Southampton,Perished,male,Alone
+220,221,1,Lower Class,"Sunderland, Mr. Victor Francis",male,16.0,0,0,SOTON/OQ 392089,8.05,,Southampton,Survived,male,Alone
+221,222,0,Middle Class,"Bracken, Mr. James H",male,27.0,0,0,220367,13.0,,Southampton,Perished,male,Alone
+222,223,0,Lower Class,"Green, Mr. George Henry",male,51.0,0,0,21440,8.05,,Southampton,Perished,male,Alone
+223,224,0,Lower Class,"Nenkoff, Mr. Christo",male,,0,0,349234,7.8958,,Southampton,Perished,male,Alone
+224,225,1,Upper Class,"Hoyt, Mr. Frederick Maxfield",male,38.0,1,0,19943,90.0,C93,Southampton,Survived,male,With Family
+225,226,0,Lower Class,"Berglund, Mr. Karl Ivar Sven",male,22.0,0,0,PP 4348,9.35,,Southampton,Perished,male,Alone
+226,227,1,Middle Class,"Mellors, Mr. William John",male,19.0,0,0,SW/PP 751,10.5,,Southampton,Survived,male,Alone
+227,228,0,Lower Class,"Lovell, Mr. John Hall (""Henry"")",male,20.5,0,0,A/5 21173,7.25,,Southampton,Perished,male,Alone
+228,229,0,Middle Class,"Fahlstrom, Mr. Arne Jonas",male,18.0,0,0,236171,13.0,,Southampton,Perished,male,Alone
+229,230,0,Lower Class,"Lefebre, Miss. Mathilde",female,,3,1,4133,25.4667,,Southampton,Perished,female,With Family
+230,231,1,Upper Class,"Harris, Mrs. Henry Birkhardt (Irene Wallach)",female,35.0,1,0,36973,83.475,C83,Southampton,Survived,female,With Family
+231,232,0,Lower Class,"Larsson, Mr. Bengt Edvin",male,29.0,0,0,347067,7.775,,Southampton,Perished,male,Alone
+232,233,0,Middle Class,"Sjostedt, Mr. Ernst Adolf",male,59.0,0,0,237442,13.5,,Southampton,Perished,male,Alone
+233,234,1,Lower Class,"Asplund, Miss. Lillian Gertrud",female,5.0,4,2,347077,31.3875,,Southampton,Survived,child,With Family
+234,235,0,Middle Class,"Leyson, Mr. Robert William Norman",male,24.0,0,0,C.A. 29566,10.5,,Southampton,Perished,male,Alone
+235,236,0,Lower Class,"Harknett, Miss. Alice Phoebe",female,,0,0,W./C. 6609,7.55,,Southampton,Perished,female,Alone
+236,237,0,Middle Class,"Hold, Mr. Stephen",male,44.0,1,0,26707,26.0,,Southampton,Perished,male,With Family
+237,238,1,Middle Class,"Collyer, Miss. Marjorie ""Lottie""",female,8.0,0,2,C.A. 31921,26.25,,Southampton,Survived,child,With Family
+238,239,0,Middle Class,"Pengelly, Mr. Frederick William",male,19.0,0,0,28665,10.5,,Southampton,Perished,male,Alone
+239,240,0,Middle Class,"Hunt, Mr. George Henry",male,33.0,0,0,SCO/W 1585,12.275,,Southampton,Perished,male,Alone
+240,241,0,Lower Class,"Zabour, Miss. Thamine",female,,1,0,2665,14.4542,,Cherbourg,Perished,female,With Family
+241,242,1,Lower Class,"Murphy, Miss. Katherine ""Kate""",female,,1,0,367230,15.5,,Queenstown,Survived,female,With Family
+242,243,0,Middle Class,"Coleridge, Mr. Reginald Charles",male,29.0,0,0,W./C. 14263,10.5,,Southampton,Perished,male,Alone
+243,244,0,Lower Class,"Maenpaa, Mr. Matti Alexanteri",male,22.0,0,0,STON/O 2. 3101275,7.125,,Southampton,Perished,male,Alone
+244,245,0,Lower Class,"Attalah, Mr. Sleiman",male,30.0,0,0,2694,7.225,,Cherbourg,Perished,male,Alone
+245,246,0,Upper Class,"Minahan, Dr. William Edward",male,44.0,2,0,19928,90.0,C78,Queenstown,Perished,male,With Family
+246,247,0,Lower Class,"Lindahl, Miss. Agda Thorilda Viktoria",female,25.0,0,0,347071,7.775,,Southampton,Perished,female,Alone
+247,248,1,Middle Class,"Hamalainen, Mrs. William (Anna)",female,24.0,0,2,250649,14.5,,Southampton,Survived,female,With Family
+248,249,1,Upper Class,"Beckwith, Mr. Richard Leonard",male,37.0,1,1,11751,52.5542,D35,Southampton,Survived,male,With Family
+249,250,0,Middle Class,"Carter, Rev. Ernest Courtenay",male,54.0,1,0,244252,26.0,,Southampton,Perished,male,With Family
+250,251,0,Lower Class,"Reed, Mr. James George",male,,0,0,362316,7.25,,Southampton,Perished,male,Alone
+251,252,0,Lower Class,"Strom, Mrs. Wilhelm (Elna Matilda Persson)",female,29.0,1,1,347054,10.4625,G6,Southampton,Perished,female,With Family
+252,253,0,Upper Class,"Stead, Mr. William Thomas",male,62.0,0,0,113514,26.55,C87,Southampton,Perished,male,Alone
+253,254,0,Lower Class,"Lobb, Mr. William Arthur",male,30.0,1,0,A/5. 3336,16.1,,Southampton,Perished,male,With Family
+254,255,0,Lower Class,"Rosblom, Mrs. Viktor (Helena Wilhelmina)",female,41.0,0,2,370129,20.2125,,Southampton,Perished,female,With Family
+255,256,1,Lower Class,"Touma, Mrs. Darwis (Hanne Youssef Razi)",female,29.0,0,2,2650,15.2458,,Cherbourg,Survived,female,With Family
+256,257,1,Upper Class,"Thorne, Mrs. Gertrude Maybelle",female,,0,0,PC 17585,79.2,,Cherbourg,Survived,female,Alone
+257,258,1,Upper Class,"Cherry, Miss. Gladys",female,30.0,0,0,110152,86.5,B77,Southampton,Survived,female,Alone
+258,259,1,Upper Class,"Ward, Miss. Anna",female,35.0,0,0,PC 17755,512.3292,,Cherbourg,Survived,female,Alone
+259,260,1,Middle Class,"Parrish, Mrs. (Lutie Davis)",female,50.0,0,1,230433,26.0,,Southampton,Survived,female,With Family
+260,261,0,Lower Class,"Smith, Mr. Thomas",male,,0,0,384461,7.75,,Queenstown,Perished,male,Alone
+261,262,1,Lower Class,"Asplund, Master. Edvin Rojj Felix",male,3.0,4,2,347077,31.3875,,Southampton,Survived,child,With Family
+262,263,0,Upper Class,"Taussig, Mr. Emil",male,52.0,1,1,110413,79.65,E67,Southampton,Perished,male,With Family
+263,264,0,Upper Class,"Harrison, Mr. William",male,40.0,0,0,112059,0.0,B94,Southampton,Perished,male,Alone
+264,265,0,Lower Class,"Henry, Miss. Delia",female,,0,0,382649,7.75,,Queenstown,Perished,female,Alone
+265,266,0,Middle Class,"Reeves, Mr. David",male,36.0,0,0,C.A. 17248,10.5,,Southampton,Perished,male,Alone
+266,267,0,Lower Class,"Panula, Mr. Ernesti Arvid",male,16.0,4,1,3101295,39.6875,,Southampton,Perished,male,With Family
+267,268,1,Lower Class,"Persson, Mr. Ernst Ulrik",male,25.0,1,0,347083,7.775,,Southampton,Survived,male,With Family
+268,269,1,Upper Class,"Graham, Mrs. William Thompson (Edith Junkins)",female,58.0,0,1,PC 17582,153.4625,C125,Southampton,Survived,female,With Family
+269,270,1,Upper Class,"Bissette, Miss. Amelia",female,35.0,0,0,PC 17760,135.6333,C99,Southampton,Survived,female,Alone
+270,271,0,Upper Class,"Cairns, Mr. Alexander",male,,0,0,113798,31.0,,Southampton,Perished,male,Alone
+271,272,1,Lower Class,"Tornquist, Mr. William Henry",male,25.0,0,0,LINE,0.0,,Southampton,Survived,male,Alone
+272,273,1,Middle Class,"Mellinger, Mrs. (Elizabeth Anne Maidment)",female,41.0,0,1,250644,19.5,,Southampton,Survived,female,With Family
+273,274,0,Upper Class,"Natsch, Mr. Charles H",male,37.0,0,1,PC 17596,29.7,C118,Cherbourg,Perished,male,With Family
+274,275,1,Lower Class,"Healy, Miss. Hanora ""Nora""",female,,0,0,370375,7.75,,Queenstown,Survived,female,Alone
+275,276,1,Upper Class,"Andrews, Miss. Kornelia Theodosia",female,63.0,1,0,13502,77.9583,D7,Southampton,Survived,female,With Family
+276,277,0,Lower Class,"Lindblom, Miss. Augusta Charlotta",female,45.0,0,0,347073,7.75,,Southampton,Perished,female,Alone
+277,278,0,Middle Class,"Parkes, Mr. Francis ""Frank""",male,,0,0,239853,0.0,,Southampton,Perished,male,Alone
+278,279,0,Lower Class,"Rice, Master. Eric",male,7.0,4,1,382652,29.125,,Queenstown,Perished,child,With Family
+279,280,1,Lower Class,"Abbott, Mrs. Stanton (Rosa Hunt)",female,35.0,1,1,C.A. 2673,20.25,,Southampton,Survived,female,With Family
+280,281,0,Lower Class,"Duane, Mr. Frank",male,65.0,0,0,336439,7.75,,Queenstown,Perished,male,Alone
+281,282,0,Lower Class,"Olsson, Mr. Nils Johan Goransson",male,28.0,0,0,347464,7.8542,,Southampton,Perished,male,Alone
+282,283,0,Lower Class,"de Pelsmaeker, Mr. Alfons",male,16.0,0,0,345778,9.5,,Southampton,Perished,male,Alone
+283,284,1,Lower Class,"Dorking, Mr. Edward Arthur",male,19.0,0,0,A/5. 10482,8.05,,Southampton,Survived,male,Alone
+284,285,0,Upper Class,"Smith, Mr. Richard William",male,,0,0,113056,26.0,A19,Southampton,Perished,male,Alone
+285,286,0,Lower Class,"Stankovic, Mr. Ivan",male,33.0,0,0,349239,8.6625,,Cherbourg,Perished,male,Alone
+286,287,1,Lower Class,"de Mulder, Mr. Theodore",male,30.0,0,0,345774,9.5,,Southampton,Survived,male,Alone
+287,288,0,Lower Class,"Naidenoff, Mr. Penko",male,22.0,0,0,349206,7.8958,,Southampton,Perished,male,Alone
+288,289,1,Middle Class,"Hosono, Mr. Masabumi",male,42.0,0,0,237798,13.0,,Southampton,Survived,male,Alone
+289,290,1,Lower Class,"Connolly, Miss. Kate",female,22.0,0,0,370373,7.75,,Queenstown,Survived,female,Alone
+290,291,1,Upper Class,"Barber, Miss. Ellen ""Nellie""",female,26.0,0,0,19877,78.85,,Southampton,Survived,female,Alone
+291,292,1,Upper Class,"Bishop, Mrs. Dickinson H (Helen Walton)",female,19.0,1,0,11967,91.0792,B49,Cherbourg,Survived,female,With Family
+292,293,0,Middle Class,"Levy, Mr. Rene Jacques",male,36.0,0,0,SC/Paris 2163,12.875,D,Cherbourg,Perished,male,Alone
+293,294,0,Lower Class,"Haas, Miss. Aloisia",female,24.0,0,0,349236,8.85,,Southampton,Perished,female,Alone
+294,295,0,Lower Class,"Mineff, Mr. Ivan",male,24.0,0,0,349233,7.8958,,Southampton,Perished,male,Alone
+295,296,0,Upper Class,"Lewy, Mr. Ervin G",male,,0,0,PC 17612,27.7208,,Cherbourg,Perished,male,Alone
+296,297,0,Lower Class,"Hanna, Mr. Mansour",male,23.5,0,0,2693,7.2292,,Cherbourg,Perished,male,Alone
+297,298,0,Upper Class,"Allison, Miss. Helen Loraine",female,2.0,1,2,113781,151.55,C22 C26,Southampton,Perished,child,With Family
+298,299,1,Upper Class,"Saalfeld, Mr. Adolphe",male,,0,0,19988,30.5,C106,Southampton,Survived,male,Alone
+299,300,1,Upper Class,"Baxter, Mrs. James (Helene DeLaudeniere Chaput)",female,50.0,0,1,PC 17558,247.5208,B58 B60,Cherbourg,Survived,female,With Family
+300,301,1,Lower Class,"Kelly, Miss. Anna Katherine ""Annie Kate""",female,,0,0,9234,7.75,,Queenstown,Survived,female,Alone
+301,302,1,Lower Class,"McCoy, Mr. Bernard",male,,2,0,367226,23.25,,Queenstown,Survived,male,With Family
+302,303,0,Lower Class,"Johnson, Mr. William Cahoone Jr",male,19.0,0,0,LINE,0.0,,Southampton,Perished,male,Alone
+303,304,1,Middle Class,"Keane, Miss. Nora A",female,,0,0,226593,12.35,E101,Queenstown,Survived,female,Alone
+304,305,0,Lower Class,"Williams, Mr. Howard Hugh ""Harry""",male,,0,0,A/5 2466,8.05,,Southampton,Perished,male,Alone
+305,306,1,Upper Class,"Allison, Master. Hudson Trevor",male,0.92,1,2,113781,151.55,C22 C26,Southampton,Survived,child,With Family
+306,307,1,Upper Class,"Fleming, Miss. Margaret",female,,0,0,17421,110.8833,,Cherbourg,Survived,female,Alone
+307,308,1,Upper Class,"Penasco y Castellana, Mrs. Victor de Satode (Maria Josefa Perez de Soto y Vallejo)",female,17.0,1,0,PC 17758,108.9,C65,Cherbourg,Survived,female,With Family
+308,309,0,Middle Class,"Abelson, Mr. Samuel",male,30.0,1,0,P/PP 3381,24.0,,Cherbourg,Perished,male,With Family
+309,310,1,Upper Class,"Francatelli, Miss. Laura Mabel",female,30.0,0,0,PC 17485,56.9292,E36,Cherbourg,Survived,female,Alone
+310,311,1,Upper Class,"Hays, Miss. Margaret Bechstein",female,24.0,0,0,11767,83.1583,C54,Cherbourg,Survived,female,Alone
+311,312,1,Upper Class,"Ryerson, Miss. Emily Borie",female,18.0,2,2,PC 17608,262.375,B57 B59 B63 B66,Cherbourg,Survived,female,With Family
+312,313,0,Middle Class,"Lahtinen, Mrs. William (Anna Sylfven)",female,26.0,1,1,250651,26.0,,Southampton,Perished,female,With Family
+313,314,0,Lower Class,"Hendekovic, Mr. Ignjac",male,28.0,0,0,349243,7.8958,,Southampton,Perished,male,Alone
+314,315,0,Middle Class,"Hart, Mr. Benjamin",male,43.0,1,1,F.C.C. 13529,26.25,,Southampton,Perished,male,With Family
+315,316,1,Lower Class,"Nilsson, Miss. Helmina Josefina",female,26.0,0,0,347470,7.8542,,Southampton,Survived,female,Alone
+316,317,1,Middle Class,"Kantor, Mrs. Sinai (Miriam Sternin)",female,24.0,1,0,244367,26.0,,Southampton,Survived,female,With Family
+317,318,0,Middle Class,"Moraweck, Dr. Ernest",male,54.0,0,0,29011,14.0,,Southampton,Perished,male,Alone
+318,319,1,Upper Class,"Wick, Miss. Mary Natalie",female,31.0,0,2,36928,164.8667,C7,Southampton,Survived,female,With Family
+319,320,1,Upper Class,"Spedden, Mrs. Frederic Oakley (Margaretta Corning Stone)",female,40.0,1,1,16966,134.5,E34,Cherbourg,Survived,female,With Family
+320,321,0,Lower Class,"Dennis, Mr. Samuel",male,22.0,0,0,A/5 21172,7.25,,Southampton,Perished,male,Alone
+321,322,0,Lower Class,"Danoff, Mr. Yoto",male,27.0,0,0,349219,7.8958,,Southampton,Perished,male,Alone
+322,323,1,Middle Class,"Slayter, Miss. Hilda Mary",female,30.0,0,0,234818,12.35,,Queenstown,Survived,female,Alone
+323,324,1,Middle Class,"Caldwell, Mrs. Albert Francis (Sylvia Mae Harbaugh)",female,22.0,1,1,248738,29.0,,Southampton,Survived,female,With Family
+324,325,0,Lower Class,"Sage, Mr. George John Jr",male,,8,2,CA. 2343,69.55,,Southampton,Perished,male,With Family
+325,326,1,Upper Class,"Young, Miss. Marie Grice",female,36.0,0,0,PC 17760,135.6333,C32,Cherbourg,Survived,female,Alone
+326,327,0,Lower Class,"Nysveen, Mr. Johan Hansen",male,61.0,0,0,345364,6.2375,,Southampton,Perished,male,Alone
+327,328,1,Middle Class,"Ball, Mrs. (Ada E Hall)",female,36.0,0,0,28551,13.0,D,Southampton,Survived,female,Alone
+328,329,1,Lower Class,"Goldsmith, Mrs. Frank John (Emily Alice Brown)",female,31.0,1,1,363291,20.525,,Southampton,Survived,female,With Family
+329,330,1,Upper Class,"Hippach, Miss. Jean Gertrude",female,16.0,0,1,111361,57.9792,B18,Cherbourg,Survived,female,With Family
+330,331,1,Lower Class,"McCoy, Miss. Agnes",female,,2,0,367226,23.25,,Queenstown,Survived,female,With Family
+331,332,0,Upper Class,"Partner, Mr. Austen",male,45.5,0,0,113043,28.5,C124,Southampton,Perished,male,Alone
+332,333,0,Upper Class,"Graham, Mr. George Edward",male,38.0,0,1,PC 17582,153.4625,C91,Southampton,Perished,male,With Family
+333,334,0,Lower Class,"Vander Planke, Mr. Leo Edmondus",male,16.0,2,0,345764,18.0,,Southampton,Perished,male,With Family
+334,335,1,Upper Class,"Frauenthal, Mrs. Henry William (Clara Heinsheimer)",female,,1,0,PC 17611,133.65,,Southampton,Survived,female,With Family
+335,336,0,Lower Class,"Denkoff, Mr. Mitto",male,,0,0,349225,7.8958,,Southampton,Perished,male,Alone
+336,337,0,Upper Class,"Pears, Mr. Thomas Clinton",male,29.0,1,0,113776,66.6,C2,Southampton,Perished,male,With Family
+337,338,1,Upper Class,"Burns, Miss. Elizabeth Margaret",female,41.0,0,0,16966,134.5,E40,Cherbourg,Survived,female,Alone
+338,339,1,Lower Class,"Dahl, Mr. Karl Edwart",male,45.0,0,0,7598,8.05,,Southampton,Survived,male,Alone
+339,340,0,Upper Class,"Blackwell, Mr. Stephen Weart",male,45.0,0,0,113784,35.5,T,Southampton,Perished,male,Alone
+340,341,1,Middle Class,"Navratil, Master. Edmond Roger",male,2.0,1,1,230080,26.0,F2,Southampton,Survived,child,With Family
+341,342,1,Upper Class,"Fortune, Miss. Alice Elizabeth",female,24.0,3,2,19950,263.0,C23 C25 C27,Southampton,Survived,female,With Family
+342,343,0,Middle Class,"Collander, Mr. Erik Gustaf",male,28.0,0,0,248740,13.0,,Southampton,Perished,male,Alone
+343,344,0,Middle Class,"Sedgwick, Mr. Charles Frederick Waddington",male,25.0,0,0,244361,13.0,,Southampton,Perished,male,Alone
+344,345,0,Middle Class,"Fox, Mr. Stanley Hubert",male,36.0,0,0,229236,13.0,,Southampton,Perished,male,Alone
+345,346,1,Middle Class,"Brown, Miss. Amelia ""Mildred""",female,24.0,0,0,248733,13.0,F33,Southampton,Survived,female,Alone
+346,347,1,Middle Class,"Smith, Miss. Marion Elsie",female,40.0,0,0,31418,13.0,,Southampton,Survived,female,Alone
+347,348,1,Lower Class,"Davison, Mrs. Thomas Henry (Mary E Finck)",female,,1,0,386525,16.1,,Southampton,Survived,female,With Family
+348,349,1,Lower Class,"Coutts, Master. William Loch ""William""",male,3.0,1,1,C.A. 37671,15.9,,Southampton,Survived,child,With Family
+349,350,0,Lower Class,"Dimic, Mr. Jovan",male,42.0,0,0,315088,8.6625,,Southampton,Perished,male,Alone
+350,351,0,Lower Class,"Odahl, Mr. Nils Martin",male,23.0,0,0,7267,9.225,,Southampton,Perished,male,Alone
+351,352,0,Upper Class,"Williams-Lambert, Mr. Fletcher Fellows",male,,0,0,113510,35.0,C128,Southampton,Perished,male,Alone
+352,353,0,Lower Class,"Elias, Mr. Tannous",male,15.0,1,1,2695,7.2292,,Cherbourg,Perished,child,With Family
+353,354,0,Lower Class,"Arnold-Franchi, Mr. Josef",male,25.0,1,0,349237,17.8,,Southampton,Perished,male,With Family
+354,355,0,Lower Class,"Yousif, Mr. Wazli",male,,0,0,2647,7.225,,Cherbourg,Perished,male,Alone
+355,356,0,Lower Class,"Vanden Steen, Mr. Leo Peter",male,28.0,0,0,345783,9.5,,Southampton,Perished,male,Alone
+356,357,1,Upper Class,"Bowerman, Miss. Elsie Edith",female,22.0,0,1,113505,55.0,E33,Southampton,Survived,female,With Family
+357,358,0,Middle Class,"Funk, Miss. Annie Clemmer",female,38.0,0,0,237671,13.0,,Southampton,Perished,female,Alone
+358,359,1,Lower Class,"McGovern, Miss. Mary",female,,0,0,330931,7.8792,,Queenstown,Survived,female,Alone
+359,360,1,Lower Class,"Mockler, Miss. Helen Mary ""Ellie""",female,,0,0,330980,7.8792,,Queenstown,Survived,female,Alone
+360,361,0,Lower Class,"Skoog, Mr. Wilhelm",male,40.0,1,4,347088,27.9,,Southampton,Perished,male,With Family
+361,362,0,Middle Class,"del Carlo, Mr. Sebastiano",male,29.0,1,0,SC/PARIS 2167,27.7208,,Cherbourg,Perished,male,With Family
+362,363,0,Lower Class,"Barbara, Mrs. (Catherine David)",female,45.0,0,1,2691,14.4542,,Cherbourg,Perished,female,With Family
+363,364,0,Lower Class,"Asim, Mr. Adola",male,35.0,0,0,SOTON/O.Q. 3101310,7.05,,Southampton,Perished,male,Alone
+364,365,0,Lower Class,"O'Brien, Mr. Thomas",male,,1,0,370365,15.5,,Queenstown,Perished,male,With Family
+365,366,0,Lower Class,"Adahl, Mr. Mauritz Nils Martin",male,30.0,0,0,C 7076,7.25,,Southampton,Perished,male,Alone
+366,367,1,Upper Class,"Warren, Mrs. Frank Manley (Anna Sophia Atkinson)",female,60.0,1,0,110813,75.25,D37,Cherbourg,Survived,female,With Family
+367,368,1,Lower Class,"Moussa, Mrs. (Mantoura Boulos)",female,,0,0,2626,7.2292,,Cherbourg,Survived,female,Alone
+368,369,1,Lower Class,"Jermyn, Miss. Annie",female,,0,0,14313,7.75,,Queenstown,Survived,female,Alone
+369,370,1,Upper Class,"Aubart, Mme. Leontine Pauline",female,24.0,0,0,PC 17477,69.3,B35,Cherbourg,Survived,female,Alone
+370,371,1,Upper Class,"Harder, Mr. George Achilles",male,25.0,1,0,11765,55.4417,E50,Cherbourg,Survived,male,With Family
+371,372,0,Lower Class,"Wiklund, Mr. Jakob Alfred",male,18.0,1,0,3101267,6.4958,,Southampton,Perished,male,With Family
+372,373,0,Lower Class,"Beavan, Mr. William Thomas",male,19.0,0,0,323951,8.05,,Southampton,Perished,male,Alone
+373,374,0,Upper Class,"Ringhini, Mr. Sante",male,22.0,0,0,PC 17760,135.6333,,Cherbourg,Perished,male,Alone
+374,375,0,Lower Class,"Palsson, Miss. Stina Viola",female,3.0,3,1,349909,21.075,,Southampton,Perished,child,With Family
+375,376,1,Upper Class,"Meyer, Mrs. Edgar Joseph (Leila Saks)",female,,1,0,PC 17604,82.1708,,Cherbourg,Survived,female,With Family
+376,377,1,Lower Class,"Landergren, Miss. Aurora Adelia",female,22.0,0,0,C 7077,7.25,,Southampton,Survived,female,Alone
+377,378,0,Upper Class,"Widener, Mr. Harry Elkins",male,27.0,0,2,113503,211.5,C82,Cherbourg,Perished,male,With Family
+378,379,0,Lower Class,"Betros, Mr. Tannous",male,20.0,0,0,2648,4.0125,,Cherbourg,Perished,male,Alone
+379,380,0,Lower Class,"Gustafsson, Mr. Karl Gideon",male,19.0,0,0,347069,7.775,,Southampton,Perished,male,Alone
+380,381,1,Upper Class,"Bidois, Miss. Rosalie",female,42.0,0,0,PC 17757,227.525,,Cherbourg,Survived,female,Alone
+381,382,1,Lower Class,"Nakid, Miss. Maria (""Mary"")",female,1.0,0,2,2653,15.7417,,Cherbourg,Survived,child,With Family
+382,383,0,Lower Class,"Tikkanen, Mr. Juho",male,32.0,0,0,STON/O 2. 3101293,7.925,,Southampton,Perished,male,Alone
+383,384,1,Upper Class,"Holverson, Mrs. Alexander Oskar (Mary Aline Towner)",female,35.0,1,0,113789,52.0,,Southampton,Survived,female,With Family
+384,385,0,Lower Class,"Plotcharsky, Mr. Vasil",male,,0,0,349227,7.8958,,Southampton,Perished,male,Alone
+385,386,0,Middle Class,"Davies, Mr. Charles Henry",male,18.0,0,0,S.O.C. 14879,73.5,,Southampton,Perished,male,Alone
+386,387,0,Lower Class,"Goodwin, Master. Sidney Leonard",male,1.0,5,2,CA 2144,46.9,,Southampton,Perished,child,With Family
+387,388,1,Middle Class,"Buss, Miss. Kate",female,36.0,0,0,27849,13.0,,Southampton,Survived,female,Alone
+388,389,0,Lower Class,"Sadlier, Mr. Matthew",male,,0,0,367655,7.7292,,Queenstown,Perished,male,Alone
+389,390,1,Middle Class,"Lehmann, Miss. Bertha",female,17.0,0,0,SC 1748,12.0,,Cherbourg,Survived,female,Alone
+390,391,1,Upper Class,"Carter, Mr. William Ernest",male,36.0,1,2,113760,120.0,B96 B98,Southampton,Survived,male,With Family
+391,392,1,Lower Class,"Jansson, Mr. Carl Olof",male,21.0,0,0,350034,7.7958,,Southampton,Survived,male,Alone
+392,393,0,Lower Class,"Gustafsson, Mr. Johan Birger",male,28.0,2,0,3101277,7.925,,Southampton,Perished,male,With Family
+393,394,1,Upper Class,"Newell, Miss. Marjorie",female,23.0,1,0,35273,113.275,D36,Cherbourg,Survived,female,With Family
+394,395,1,Lower Class,"Sandstrom, Mrs. Hjalmar (Agnes Charlotta Bengtsson)",female,24.0,0,2,PP 9549,16.7,G6,Southampton,Survived,female,With Family
+395,396,0,Lower Class,"Johansson, Mr. Erik",male,22.0,0,0,350052,7.7958,,Southampton,Perished,male,Alone
+396,397,0,Lower Class,"Olsson, Miss. Elina",female,31.0,0,0,350407,7.8542,,Southampton,Perished,female,Alone
+397,398,0,Middle Class,"McKane, Mr. Peter David",male,46.0,0,0,28403,26.0,,Southampton,Perished,male,Alone
+398,399,0,Middle Class,"Pain, Dr. Alfred",male,23.0,0,0,244278,10.5,,Southampton,Perished,male,Alone
+399,400,1,Middle Class,"Trout, Mrs. William H (Jessie L)",female,28.0,0,0,240929,12.65,,Southampton,Survived,female,Alone
+400,401,1,Lower Class,"Niskanen, Mr. Juha",male,39.0,0,0,STON/O 2. 3101289,7.925,,Southampton,Survived,male,Alone
+401,402,0,Lower Class,"Adams, Mr. John",male,26.0,0,0,341826,8.05,,Southampton,Perished,male,Alone
+402,403,0,Lower Class,"Jussila, Miss. Mari Aina",female,21.0,1,0,4137,9.825,,Southampton,Perished,female,With Family
+403,404,0,Lower Class,"Hakkarainen, Mr. Pekka Pietari",male,28.0,1,0,STON/O2. 3101279,15.85,,Southampton,Perished,male,With Family
+404,405,0,Lower Class,"Oreskovic, Miss. Marija",female,20.0,0,0,315096,8.6625,,Southampton,Perished,female,Alone
+405,406,0,Middle Class,"Gale, Mr. Shadrach",male,34.0,1,0,28664,21.0,,Southampton,Perished,male,With Family
+406,407,0,Lower Class,"Widegren, Mr. Carl/Charles Peter",male,51.0,0,0,347064,7.75,,Southampton,Perished,male,Alone
+407,408,1,Middle Class,"Richards, Master. William Rowe",male,3.0,1,1,29106,18.75,,Southampton,Survived,child,With Family
+408,409,0,Lower Class,"Birkeland, Mr. Hans Martin Monsen",male,21.0,0,0,312992,7.775,,Southampton,Perished,male,Alone
+409,410,0,Lower Class,"Lefebre, Miss. Ida",female,,3,1,4133,25.4667,,Southampton,Perished,female,With Family
+410,411,0,Lower Class,"Sdycoff, Mr. Todor",male,,0,0,349222,7.8958,,Southampton,Perished,male,Alone
+411,412,0,Lower Class,"Hart, Mr. Henry",male,,0,0,394140,6.8583,,Queenstown,Perished,male,Alone
+412,413,1,Upper Class,"Minahan, Miss. Daisy E",female,33.0,1,0,19928,90.0,C78,Queenstown,Survived,female,With Family
+413,414,0,Middle Class,"Cunningham, Mr. Alfred Fleming",male,,0,0,239853,0.0,,Southampton,Perished,male,Alone
+414,415,1,Lower Class,"Sundman, Mr. Johan Julian",male,44.0,0,0,STON/O 2. 3101269,7.925,,Southampton,Survived,male,Alone
+415,416,0,Lower Class,"Meek, Mrs. Thomas (Annie Louise Rowley)",female,,0,0,343095,8.05,,Southampton,Perished,female,Alone
+416,417,1,Middle Class,"Drew, Mrs. James Vivian (Lulu Thorne Christian)",female,34.0,1,1,28220,32.5,,Southampton,Survived,female,With Family
+417,418,1,Middle Class,"Silven, Miss. Lyyli Karoliina",female,18.0,0,2,250652,13.0,,Southampton,Survived,female,With Family
+418,419,0,Middle Class,"Matthews, Mr. William John",male,30.0,0,0,28228,13.0,,Southampton,Perished,male,Alone
+419,420,0,Lower Class,"Van Impe, Miss. Catharina",female,10.0,0,2,345773,24.15,,Southampton,Perished,child,With Family
+420,421,0,Lower Class,"Gheorgheff, Mr. Stanio",male,,0,0,349254,7.8958,,Cherbourg,Perished,male,Alone
+421,422,0,Lower Class,"Charters, Mr. David",male,21.0,0,0,A/5. 13032,7.7333,,Queenstown,Perished,male,Alone
+422,423,0,Lower Class,"Zimmerman, Mr. Leo",male,29.0,0,0,315082,7.875,,Southampton,Perished,male,Alone
+423,424,0,Lower Class,"Danbom, Mrs. Ernst Gilbert (Anna Sigrid Maria Brogren)",female,28.0,1,1,347080,14.4,,Southampton,Perished,female,With Family
+424,425,0,Lower Class,"Rosblom, Mr. Viktor Richard",male,18.0,1,1,370129,20.2125,,Southampton,Perished,male,With Family
+425,426,0,Lower Class,"Wiseman, Mr. Phillippe",male,,0,0,A/4. 34244,7.25,,Southampton,Perished,male,Alone
+426,427,1,Middle Class,"Clarke, Mrs. Charles V (Ada Maria Winfield)",female,28.0,1,0,2003,26.0,,Southampton,Survived,female,With Family
+427,428,1,Middle Class,"Phillips, Miss. Kate Florence (""Mrs Kate Louise Phillips Marshall"")",female,19.0,0,0,250655,26.0,,Southampton,Survived,female,Alone
+428,429,0,Lower Class,"Flynn, Mr. James",male,,0,0,364851,7.75,,Queenstown,Perished,male,Alone
+429,430,1,Lower Class,"Pickard, Mr. Berk (Berk Trembisky)",male,32.0,0,0,SOTON/O.Q. 392078,8.05,E10,Southampton,Survived,male,Alone
+430,431,1,Upper Class,"Bjornstrom-Steffansson, Mr. Mauritz Hakan",male,28.0,0,0,110564,26.55,C52,Southampton,Survived,male,Alone
+431,432,1,Lower Class,"Thorneycroft, Mrs. Percival (Florence Kate White)",female,,1,0,376564,16.1,,Southampton,Survived,female,With Family
+432,433,1,Middle Class,"Louch, Mrs. Charles Alexander (Alice Adelaide Slow)",female,42.0,1,0,SC/AH 3085,26.0,,Southampton,Survived,female,With Family
+433,434,0,Lower Class,"Kallio, Mr. Nikolai Erland",male,17.0,0,0,STON/O 2. 3101274,7.125,,Southampton,Perished,male,Alone
+434,435,0,Upper Class,"Silvey, Mr. William Baird",male,50.0,1,0,13507,55.9,E44,Southampton,Perished,male,With Family
+435,436,1,Upper Class,"Carter, Miss. Lucile Polk",female,14.0,1,2,113760,120.0,B96 B98,Southampton,Survived,child,With Family
+436,437,0,Lower Class,"Ford, Miss. Doolina Margaret ""Daisy""",female,21.0,2,2,W./C. 6608,34.375,,Southampton,Perished,female,With Family
+437,438,1,Middle Class,"Richards, Mrs. Sidney (Emily Hocking)",female,24.0,2,3,29106,18.75,,Southampton,Survived,female,With Family
+438,439,0,Upper Class,"Fortune, Mr. Mark",male,64.0,1,4,19950,263.0,C23 C25 C27,Southampton,Perished,male,With Family
+439,440,0,Middle Class,"Kvillner, Mr. Johan Henrik Johannesson",male,31.0,0,0,C.A. 18723,10.5,,Southampton,Perished,male,Alone
+440,441,1,Middle Class,"Hart, Mrs. Benjamin (Esther Ada Bloomfield)",female,45.0,1,1,F.C.C. 13529,26.25,,Southampton,Survived,female,With Family
+441,442,0,Lower Class,"Hampe, Mr. Leon",male,20.0,0,0,345769,9.5,,Southampton,Perished,male,Alone
+442,443,0,Lower Class,"Petterson, Mr. Johan Emil",male,25.0,1,0,347076,7.775,,Southampton,Perished,male,With Family
+443,444,1,Middle Class,"Reynaldo, Ms. Encarnacion",female,28.0,0,0,230434,13.0,,Southampton,Survived,female,Alone
+444,445,1,Lower Class,"Johannesen-Bratthammer, Mr. Bernt",male,,0,0,65306,8.1125,,Southampton,Survived,male,Alone
+445,446,1,Upper Class,"Dodge, Master. Washington",male,4.0,0,2,33638,81.8583,A34,Southampton,Survived,child,With Family
+446,447,1,Middle Class,"Mellinger, Miss. Madeleine Violet",female,13.0,0,1,250644,19.5,,Southampton,Survived,child,With Family
+447,448,1,Upper Class,"Seward, Mr. Frederic Kimber",male,34.0,0,0,113794,26.55,,Southampton,Survived,male,Alone
+448,449,1,Lower Class,"Baclini, Miss. Marie Catherine",female,5.0,2,1,2666,19.2583,,Cherbourg,Survived,child,With Family
+449,450,1,Upper Class,"Peuchen, Major. Arthur Godfrey",male,52.0,0,0,113786,30.5,C104,Southampton,Survived,male,Alone
+450,451,0,Middle Class,"West, Mr. Edwy Arthur",male,36.0,1,2,C.A. 34651,27.75,,Southampton,Perished,male,With Family
+451,452,0,Lower Class,"Hagland, Mr. Ingvald Olai Olsen",male,,1,0,65303,19.9667,,Southampton,Perished,male,With Family
+452,453,0,Upper Class,"Foreman, Mr. Benjamin Laventall",male,30.0,0,0,113051,27.75,C111,Cherbourg,Perished,male,Alone
+453,454,1,Upper Class,"Goldenberg, Mr. Samuel L",male,49.0,1,0,17453,89.1042,C92,Cherbourg,Survived,male,With Family
+454,455,0,Lower Class,"Peduzzi, Mr. Joseph",male,,0,0,A/5 2817,8.05,,Southampton,Perished,male,Alone
+455,456,1,Lower Class,"Jalsevac, Mr. Ivan",male,29.0,0,0,349240,7.8958,,Cherbourg,Survived,male,Alone
+456,457,0,Upper Class,"Millet, Mr. Francis Davis",male,65.0,0,0,13509,26.55,E38,Southampton,Perished,male,Alone
+457,458,1,Upper Class,"Kenyon, Mrs. Frederick R (Marion)",female,,1,0,17464,51.8625,D21,Southampton,Survived,female,With Family
+458,459,1,Middle Class,"Toomey, Miss. Ellen",female,50.0,0,0,F.C.C. 13531,10.5,,Southampton,Survived,female,Alone
+459,460,0,Lower Class,"O'Connor, Mr. Maurice",male,,0,0,371060,7.75,,Queenstown,Perished,male,Alone
+460,461,1,Upper Class,"Anderson, Mr. Harry",male,48.0,0,0,19952,26.55,E12,Southampton,Survived,male,Alone
+461,462,0,Lower Class,"Morley, Mr. William",male,34.0,0,0,364506,8.05,,Southampton,Perished,male,Alone
+462,463,0,Upper Class,"Gee, Mr. Arthur H",male,47.0,0,0,111320,38.5,E63,Southampton,Perished,male,Alone
+463,464,0,Middle Class,"Milling, Mr. Jacob Christian",male,48.0,0,0,234360,13.0,,Southampton,Perished,male,Alone
+464,465,0,Lower Class,"Maisner, Mr. Simon",male,,0,0,A/S 2816,8.05,,Southampton,Perished,male,Alone
+465,466,0,Lower Class,"Goncalves, Mr. Manuel Estanslas",male,38.0,0,0,SOTON/O.Q. 3101306,7.05,,Southampton,Perished,male,Alone
+466,467,0,Middle Class,"Campbell, Mr. William",male,,0,0,239853,0.0,,Southampton,Perished,male,Alone
+467,468,0,Upper Class,"Smart, Mr. John Montgomery",male,56.0,0,0,113792,26.55,,Southampton,Perished,male,Alone
+468,469,0,Lower Class,"Scanlan, Mr. James",male,,0,0,36209,7.725,,Queenstown,Perished,male,Alone
+469,470,1,Lower Class,"Baclini, Miss. Helene Barbara",female,0.75,2,1,2666,19.2583,,Cherbourg,Survived,child,With Family
+470,471,0,Lower Class,"Keefe, Mr. Arthur",male,,0,0,323592,7.25,,Southampton,Perished,male,Alone
+471,472,0,Lower Class,"Cacic, Mr. Luka",male,38.0,0,0,315089,8.6625,,Southampton,Perished,male,Alone
+472,473,1,Middle Class,"West, Mrs. Edwy Arthur (Ada Mary Worth)",female,33.0,1,2,C.A. 34651,27.75,,Southampton,Survived,female,With Family
+473,474,1,Middle Class,"Jerwan, Mrs. Amin S (Marie Marthe Thuillard)",female,23.0,0,0,SC/AH Basle 541,13.7917,D,Cherbourg,Survived,female,Alone
+474,475,0,Lower Class,"Strandberg, Miss. Ida Sofia",female,22.0,0,0,7553,9.8375,,Southampton,Perished,female,Alone
+475,476,0,Upper Class,"Clifford, Mr. George Quincy",male,,0,0,110465,52.0,A14,Southampton,Perished,male,Alone
+476,477,0,Middle Class,"Renouf, Mr. Peter Henry",male,34.0,1,0,31027,21.0,,Southampton,Perished,male,With Family
+477,478,0,Lower Class,"Braund, Mr. Lewis Richard",male,29.0,1,0,3460,7.0458,,Southampton,Perished,male,With Family
+478,479,0,Lower Class,"Karlsson, Mr. Nils August",male,22.0,0,0,350060,7.5208,,Southampton,Perished,male,Alone
+479,480,1,Lower Class,"Hirvonen, Miss. Hildur E",female,2.0,0,1,3101298,12.2875,,Southampton,Survived,child,With Family
+480,481,0,Lower Class,"Goodwin, Master. Harold Victor",male,9.0,5,2,CA 2144,46.9,,Southampton,Perished,child,With Family
+481,482,0,Middle Class,"Frost, Mr. Anthony Wood ""Archie""",male,,0,0,239854,0.0,,Southampton,Perished,male,Alone
+482,483,0,Lower Class,"Rouse, Mr. Richard Henry",male,50.0,0,0,A/5 3594,8.05,,Southampton,Perished,male,Alone
+483,484,1,Lower Class,"Turkula, Mrs. (Hedwig)",female,63.0,0,0,4134,9.5875,,Southampton,Survived,female,Alone
+484,485,1,Upper Class,"Bishop, Mr. Dickinson H",male,25.0,1,0,11967,91.0792,B49,Cherbourg,Survived,male,With Family
+485,486,0,Lower Class,"Lefebre, Miss. Jeannie",female,,3,1,4133,25.4667,,Southampton,Perished,female,With Family
+486,487,1,Upper Class,"Hoyt, Mrs. Frederick Maxfield (Jane Anne Forby)",female,35.0,1,0,19943,90.0,C93,Southampton,Survived,female,With Family
+487,488,0,Upper Class,"Kent, Mr. Edward Austin",male,58.0,0,0,11771,29.7,B37,Cherbourg,Perished,male,Alone
+488,489,0,Lower Class,"Somerton, Mr. Francis William",male,30.0,0,0,A.5. 18509,8.05,,Southampton,Perished,male,Alone
+489,490,1,Lower Class,"Coutts, Master. Eden Leslie ""Neville""",male,9.0,1,1,C.A. 37671,15.9,,Southampton,Survived,child,With Family
+490,491,0,Lower Class,"Hagland, Mr. Konrad Mathias Reiersen",male,,1,0,65304,19.9667,,Southampton,Perished,male,With Family
+491,492,0,Lower Class,"Windelov, Mr. Einar",male,21.0,0,0,SOTON/OQ 3101317,7.25,,Southampton,Perished,male,Alone
+492,493,0,Upper Class,"Molson, Mr. Harry Markland",male,55.0,0,0,113787,30.5,C30,Southampton,Perished,male,Alone
+493,494,0,Upper Class,"Artagaveytia, Mr. Ramon",male,71.0,0,0,PC 17609,49.5042,,Cherbourg,Perished,male,Alone
+494,495,0,Lower Class,"Stanley, Mr. Edward Roland",male,21.0,0,0,A/4 45380,8.05,,Southampton,Perished,male,Alone
+495,496,0,Lower Class,"Yousseff, Mr. Gerious",male,,0,0,2627,14.4583,,Cherbourg,Perished,male,Alone
+496,497,1,Upper Class,"Eustis, Miss. Elizabeth Mussey",female,54.0,1,0,36947,78.2667,D20,Cherbourg,Survived,female,With Family
+497,498,0,Lower Class,"Shellard, Mr. Frederick William",male,,0,0,C.A. 6212,15.1,,Southampton,Perished,male,Alone
+498,499,0,Upper Class,"Allison, Mrs. Hudson J C (Bessie Waldo Daniels)",female,25.0,1,2,113781,151.55,C22 C26,Southampton,Perished,female,With Family
+499,500,0,Lower Class,"Svensson, Mr. Olof",male,24.0,0,0,350035,7.7958,,Southampton,Perished,male,Alone
+500,501,0,Lower Class,"Calic, Mr. Petar",male,17.0,0,0,315086,8.6625,,Southampton,Perished,male,Alone
+501,502,0,Lower Class,"Canavan, Miss. Mary",female,21.0,0,0,364846,7.75,,Queenstown,Perished,female,Alone
+502,503,0,Lower Class,"O'Sullivan, Miss. Bridget Mary",female,,0,0,330909,7.6292,,Queenstown,Perished,female,Alone
+503,504,0,Lower Class,"Laitinen, Miss. Kristina Sofia",female,37.0,0,0,4135,9.5875,,Southampton,Perished,female,Alone
+504,505,1,Upper Class,"Maioni, Miss. Roberta",female,16.0,0,0,110152,86.5,B79,Southampton,Survived,female,Alone
+505,506,0,Upper Class,"Penasco y Castellana, Mr. Victor de Satode",male,18.0,1,0,PC 17758,108.9,C65,Cherbourg,Perished,male,With Family
+506,507,1,Middle Class,"Quick, Mrs. Frederick Charles (Jane Richards)",female,33.0,0,2,26360,26.0,,Southampton,Survived,female,With Family
+507,508,1,Upper Class,"Bradley, Mr. George (""George Arthur Brayton"")",male,,0,0,111427,26.55,,Southampton,Survived,male,Alone
+508,509,0,Lower Class,"Olsen, Mr. Henry Margido",male,28.0,0,0,C 4001,22.525,,Southampton,Perished,male,Alone
+509,510,1,Lower Class,"Lang, Mr. Fang",male,26.0,0,0,1601,56.4958,,Southampton,Survived,male,Alone
+510,511,1,Lower Class,"Daly, Mr. Eugene Patrick",male,29.0,0,0,382651,7.75,,Queenstown,Survived,male,Alone
+511,512,0,Lower Class,"Webber, Mr. James",male,,0,0,SOTON/OQ 3101316,8.05,,Southampton,Perished,male,Alone
+512,513,1,Upper Class,"McGough, Mr. James Robert",male,36.0,0,0,PC 17473,26.2875,E25,Southampton,Survived,male,Alone
+513,514,1,Upper Class,"Rothschild, Mrs. Martin (Elizabeth L. Barrett)",female,54.0,1,0,PC 17603,59.4,,Cherbourg,Survived,female,With Family
+514,515,0,Lower Class,"Coleff, Mr. Satio",male,24.0,0,0,349209,7.4958,,Southampton,Perished,male,Alone
+515,516,0,Upper Class,"Walker, Mr. William Anderson",male,47.0,0,0,36967,34.0208,D46,Southampton,Perished,male,Alone
+516,517,1,Middle Class,"Lemore, Mrs. (Amelia Milley)",female,34.0,0,0,C.A. 34260,10.5,F33,Southampton,Survived,female,Alone
+517,518,0,Lower Class,"Ryan, Mr. Patrick",male,,0,0,371110,24.15,,Queenstown,Perished,male,Alone
+518,519,1,Middle Class,"Angle, Mrs. William A (Florence ""Mary"" Agnes Hughes)",female,36.0,1,0,226875,26.0,,Southampton,Survived,female,With Family
+519,520,0,Lower Class,"Pavlovic, Mr. Stefo",male,32.0,0,0,349242,7.8958,,Southampton,Perished,male,Alone
+520,521,1,Upper Class,"Perreault, Miss. Anne",female,30.0,0,0,12749,93.5,B73,Southampton,Survived,female,Alone
+521,522,0,Lower Class,"Vovk, Mr. Janko",male,22.0,0,0,349252,7.8958,,Southampton,Perished,male,Alone
+522,523,0,Lower Class,"Lahoud, Mr. Sarkis",male,,0,0,2624,7.225,,Cherbourg,Perished,male,Alone
+523,524,1,Upper Class,"Hippach, Mrs. Louis Albert (Ida Sophia Fischer)",female,44.0,0,1,111361,57.9792,B18,Cherbourg,Survived,female,With Family
+524,525,0,Lower Class,"Kassem, Mr. Fared",male,,0,0,2700,7.2292,,Cherbourg,Perished,male,Alone
+525,526,0,Lower Class,"Farrell, Mr. James",male,40.5,0,0,367232,7.75,,Queenstown,Perished,male,Alone
+526,527,1,Middle Class,"Ridsdale, Miss. Lucy",female,50.0,0,0,W./C. 14258,10.5,,Southampton,Survived,female,Alone
+527,528,0,Upper Class,"Farthing, Mr. John",male,,0,0,PC 17483,221.7792,C95,Southampton,Perished,male,Alone
+528,529,0,Lower Class,"Salonen, Mr. Johan Werner",male,39.0,0,0,3101296,7.925,,Southampton,Perished,male,Alone
+529,530,0,Middle Class,"Hocking, Mr. Richard George",male,23.0,2,1,29104,11.5,,Southampton,Perished,male,With Family
+530,531,1,Middle Class,"Quick, Miss. Phyllis May",female,2.0,1,1,26360,26.0,,Southampton,Survived,child,With Family
+531,532,0,Lower Class,"Toufik, Mr. Nakli",male,,0,0,2641,7.2292,,Cherbourg,Perished,male,Alone
+532,533,0,Lower Class,"Elias, Mr. Joseph Jr",male,17.0,1,1,2690,7.2292,,Cherbourg,Perished,male,With Family
+533,534,1,Lower Class,"Peter, Mrs. Catherine (Catherine Rizk)",female,,0,2,2668,22.3583,,Cherbourg,Survived,female,With Family
+534,535,0,Lower Class,"Cacic, Miss. Marija",female,30.0,0,0,315084,8.6625,,Southampton,Perished,female,Alone
+535,536,1,Middle Class,"Hart, Miss. Eva Miriam",female,7.0,0,2,F.C.C. 13529,26.25,,Southampton,Survived,child,With Family
+536,537,0,Upper Class,"Butt, Major. Archibald Willingham",male,45.0,0,0,113050,26.55,B38,Southampton,Perished,male,Alone
+537,538,1,Upper Class,"LeRoy, Miss. Bertha",female,30.0,0,0,PC 17761,106.425,,Cherbourg,Survived,female,Alone
+538,539,0,Lower Class,"Risien, Mr. Samuel Beard",male,,0,0,364498,14.5,,Southampton,Perished,male,Alone
+539,540,1,Upper Class,"Frolicher, Miss. Hedwig Margaritha",female,22.0,0,2,13568,49.5,B39,Cherbourg,Survived,female,With Family
+540,541,1,Upper Class,"Crosby, Miss. Harriet R",female,36.0,0,2,WE/P 5735,71.0,B22,Southampton,Survived,female,With Family
+541,542,0,Lower Class,"Andersson, Miss. Ingeborg Constanzia",female,9.0,4,2,347082,31.275,,Southampton,Perished,child,With Family
+542,543,0,Lower Class,"Andersson, Miss. Sigrid Elisabeth",female,11.0,4,2,347082,31.275,,Southampton,Perished,child,With Family
+543,544,1,Middle Class,"Beane, Mr. Edward",male,32.0,1,0,2908,26.0,,Southampton,Survived,male,With Family
+544,545,0,Upper Class,"Douglas, Mr. Walter Donald",male,50.0,1,0,PC 17761,106.425,C86,Cherbourg,Perished,male,With Family
+545,546,0,Upper Class,"Nicholson, Mr. Arthur Ernest",male,64.0,0,0,693,26.0,,Southampton,Perished,male,Alone
+546,547,1,Middle Class,"Beane, Mrs. Edward (Ethel Clarke)",female,19.0,1,0,2908,26.0,,Southampton,Survived,female,With Family
+547,548,1,Middle Class,"Padro y Manent, Mr. Julian",male,,0,0,SC/PARIS 2146,13.8625,,Cherbourg,Survived,male,Alone
+548,549,0,Lower Class,"Goldsmith, Mr. Frank John",male,33.0,1,1,363291,20.525,,Southampton,Perished,male,With Family
+549,550,1,Middle Class,"Davies, Master. John Morgan Jr",male,8.0,1,1,C.A. 33112,36.75,,Southampton,Survived,child,With Family
+550,551,1,Upper Class,"Thayer, Mr. John Borland Jr",male,17.0,0,2,17421,110.8833,C70,Cherbourg,Survived,male,With Family
+551,552,0,Middle Class,"Sharp, Mr. Percival James R",male,27.0,0,0,244358,26.0,,Southampton,Perished,male,Alone
+552,553,0,Lower Class,"O'Brien, Mr. Timothy",male,,0,0,330979,7.8292,,Queenstown,Perished,male,Alone
+553,554,1,Lower Class,"Leeni, Mr. Fahim (""Philip Zenni"")",male,22.0,0,0,2620,7.225,,Cherbourg,Survived,male,Alone
+554,555,1,Lower Class,"Ohman, Miss. Velin",female,22.0,0,0,347085,7.775,,Southampton,Survived,female,Alone
+555,556,0,Upper Class,"Wright, Mr. George",male,62.0,0,0,113807,26.55,,Southampton,Perished,male,Alone
+556,557,1,Upper Class,"Duff Gordon, Lady. (Lucille Christiana Sutherland) (""Mrs Morgan"")",female,48.0,1,0,11755,39.6,A16,Cherbourg,Survived,female,With Family
+557,558,0,Upper Class,"Robbins, Mr. Victor",male,,0,0,PC 17757,227.525,,Cherbourg,Perished,male,Alone
+558,559,1,Upper Class,"Taussig, Mrs. Emil (Tillie Mandelbaum)",female,39.0,1,1,110413,79.65,E67,Southampton,Survived,female,With Family
+559,560,1,Lower Class,"de Messemaeker, Mrs. Guillaume Joseph (Emma)",female,36.0,1,0,345572,17.4,,Southampton,Survived,female,With Family
+560,561,0,Lower Class,"Morrow, Mr. Thomas Rowan",male,,0,0,372622,7.75,,Queenstown,Perished,male,Alone
+561,562,0,Lower Class,"Sivic, Mr. Husein",male,40.0,0,0,349251,7.8958,,Southampton,Perished,male,Alone
+562,563,0,Middle Class,"Norman, Mr. Robert Douglas",male,28.0,0,0,218629,13.5,,Southampton,Perished,male,Alone
+563,564,0,Lower Class,"Simmons, Mr. John",male,,0,0,SOTON/OQ 392082,8.05,,Southampton,Perished,male,Alone
+564,565,0,Lower Class,"Meanwell, Miss. (Marion Ogden)",female,,0,0,SOTON/O.Q. 392087,8.05,,Southampton,Perished,female,Alone
+565,566,0,Lower Class,"Davies, Mr. Alfred J",male,24.0,2,0,A/4 48871,24.15,,Southampton,Perished,male,With Family
+566,567,0,Lower Class,"Stoytcheff, Mr. Ilia",male,19.0,0,0,349205,7.8958,,Southampton,Perished,male,Alone
+567,568,0,Lower Class,"Palsson, Mrs. Nils (Alma Cornelia Berglund)",female,29.0,0,4,349909,21.075,,Southampton,Perished,female,With Family
+568,569,0,Lower Class,"Doharr, Mr. Tannous",male,,0,0,2686,7.2292,,Cherbourg,Perished,male,Alone
+569,570,1,Lower Class,"Jonsson, Mr. Carl",male,32.0,0,0,350417,7.8542,,Southampton,Survived,male,Alone
+570,571,1,Middle Class,"Harris, Mr. George",male,62.0,0,0,S.W./PP 752,10.5,,Southampton,Survived,male,Alone
+571,572,1,Upper Class,"Appleton, Mrs. Edward Dale (Charlotte Lamson)",female,53.0,2,0,11769,51.4792,C101,Southampton,Survived,female,With Family
+572,573,1,Upper Class,"Flynn, Mr. John Irwin (""Irving"")",male,36.0,0,0,PC 17474,26.3875,E25,Southampton,Survived,male,Alone
+573,574,1,Lower Class,"Kelly, Miss. Mary",female,,0,0,14312,7.75,,Queenstown,Survived,female,Alone
+574,575,0,Lower Class,"Rush, Mr. Alfred George John",male,16.0,0,0,A/4. 20589,8.05,,Southampton,Perished,male,Alone
+575,576,0,Lower Class,"Patchett, Mr. George",male,19.0,0,0,358585,14.5,,Southampton,Perished,male,Alone
+576,577,1,Middle Class,"Garside, Miss. Ethel",female,34.0,0,0,243880,13.0,,Southampton,Survived,female,Alone
+577,578,1,Upper Class,"Silvey, Mrs. William Baird (Alice Munger)",female,39.0,1,0,13507,55.9,E44,Southampton,Survived,female,With Family
+578,579,0,Lower Class,"Caram, Mrs. Joseph (Maria Elias)",female,,1,0,2689,14.4583,,Cherbourg,Perished,female,With Family
+579,580,1,Lower Class,"Jussila, Mr. Eiriik",male,32.0,0,0,STON/O 2. 3101286,7.925,,Southampton,Survived,male,Alone
+580,581,1,Middle Class,"Christy, Miss. Julie Rachel",female,25.0,1,1,237789,30.0,,Southampton,Survived,female,With Family
+581,582,1,Upper Class,"Thayer, Mrs. John Borland (Marian Longstreth Morris)",female,39.0,1,1,17421,110.8833,C68,Cherbourg,Survived,female,With Family
+582,583,0,Middle Class,"Downton, Mr. William James",male,54.0,0,0,28403,26.0,,Southampton,Perished,male,Alone
+583,584,0,Upper Class,"Ross, Mr. John Hugo",male,36.0,0,0,13049,40.125,A10,Cherbourg,Perished,male,Alone
+584,585,0,Lower Class,"Paulner, Mr. Uscher",male,,0,0,3411,8.7125,,Cherbourg,Perished,male,Alone
+585,586,1,Upper Class,"Taussig, Miss. Ruth",female,18.0,0,2,110413,79.65,E68,Southampton,Survived,female,With Family
+586,587,0,Middle Class,"Jarvis, Mr. John Denzil",male,47.0,0,0,237565,15.0,,Southampton,Perished,male,Alone
+587,588,1,Upper Class,"Frolicher-Stehli, Mr. Maxmillian",male,60.0,1,1,13567,79.2,B41,Cherbourg,Survived,male,With Family
+588,589,0,Lower Class,"Gilinski, Mr. Eliezer",male,22.0,0,0,14973,8.05,,Southampton,Perished,male,Alone
+589,590,0,Lower Class,"Murdlin, Mr. Joseph",male,,0,0,A./5. 3235,8.05,,Southampton,Perished,male,Alone
+590,591,0,Lower Class,"Rintamaki, Mr. Matti",male,35.0,0,0,STON/O 2. 3101273,7.125,,Southampton,Perished,male,Alone
+591,592,1,Upper Class,"Stephenson, Mrs. Walter Bertram (Martha Eustis)",female,52.0,1,0,36947,78.2667,D20,Cherbourg,Survived,female,With Family
+592,593,0,Lower Class,"Elsbury, Mr. William James",male,47.0,0,0,A/5 3902,7.25,,Southampton,Perished,male,Alone
+593,594,0,Lower Class,"Bourke, Miss. Mary",female,,0,2,364848,7.75,,Queenstown,Perished,female,With Family
+594,595,0,Middle Class,"Chapman, Mr. John Henry",male,37.0,1,0,SC/AH 29037,26.0,,Southampton,Perished,male,With Family
+595,596,0,Lower Class,"Van Impe, Mr. Jean Baptiste",male,36.0,1,1,345773,24.15,,Southampton,Perished,male,With Family
+596,597,1,Middle Class,"Leitch, Miss. Jessie Wills",female,,0,0,248727,33.0,,Southampton,Survived,female,Alone
+597,598,0,Lower Class,"Johnson, Mr. Alfred",male,49.0,0,0,LINE,0.0,,Southampton,Perished,male,Alone
+598,599,0,Lower Class,"Boulos, Mr. Hanna",male,,0,0,2664,7.225,,Cherbourg,Perished,male,Alone
+599,600,1,Upper Class,"Duff Gordon, Sir. Cosmo Edmund (""Mr Morgan"")",male,49.0,1,0,PC 17485,56.9292,A20,Cherbourg,Survived,male,With Family
+600,601,1,Middle Class,"Jacobsohn, Mrs. Sidney Samuel (Amy Frances Christy)",female,24.0,2,1,243847,27.0,,Southampton,Survived,female,With Family
+601,602,0,Lower Class,"Slabenoff, Mr. Petco",male,,0,0,349214,7.8958,,Southampton,Perished,male,Alone
+602,603,0,Upper Class,"Harrington, Mr. Charles H",male,,0,0,113796,42.4,,Southampton,Perished,male,Alone
+603,604,0,Lower Class,"Torber, Mr. Ernst William",male,44.0,0,0,364511,8.05,,Southampton,Perished,male,Alone
+604,605,1,Upper Class,"Homer, Mr. Harry (""Mr E Haven"")",male,35.0,0,0,111426,26.55,,Cherbourg,Survived,male,Alone
+605,606,0,Lower Class,"Lindell, Mr. Edvard Bengtsson",male,36.0,1,0,349910,15.55,,Southampton,Perished,male,With Family
+606,607,0,Lower Class,"Karaic, Mr. Milan",male,30.0,0,0,349246,7.8958,,Southampton,Perished,male,Alone
+607,608,1,Upper Class,"Daniel, Mr. Robert Williams",male,27.0,0,0,113804,30.5,,Southampton,Survived,male,Alone
+608,609,1,Middle Class,"Laroche, Mrs. Joseph (Juliette Marie Louise Lafargue)",female,22.0,1,2,SC/Paris 2123,41.5792,,Cherbourg,Survived,female,With Family
+609,610,1,Upper Class,"Shutes, Miss. Elizabeth W",female,40.0,0,0,PC 17582,153.4625,C125,Southampton,Survived,female,Alone
+610,611,0,Lower Class,"Andersson, Mrs. Anders Johan (Alfrida Konstantia Brogren)",female,39.0,1,5,347082,31.275,,Southampton,Perished,female,With Family
+611,612,0,Lower Class,"Jardin, Mr. Jose Neto",male,,0,0,SOTON/O.Q. 3101305,7.05,,Southampton,Perished,male,Alone
+612,613,1,Lower Class,"Murphy, Miss. Margaret Jane",female,,1,0,367230,15.5,,Queenstown,Survived,female,With Family
+613,614,0,Lower Class,"Horgan, Mr. John",male,,0,0,370377,7.75,,Queenstown,Perished,male,Alone
+614,615,0,Lower Class,"Brocklebank, Mr. William Alfred",male,35.0,0,0,364512,8.05,,Southampton,Perished,male,Alone
+615,616,1,Middle Class,"Herman, Miss. Alice",female,24.0,1,2,220845,65.0,,Southampton,Survived,female,With Family
+616,617,0,Lower Class,"Danbom, Mr. Ernst Gilbert",male,34.0,1,1,347080,14.4,,Southampton,Perished,male,With Family
+617,618,0,Lower Class,"Lobb, Mrs. William Arthur (Cordelia K Stanlick)",female,26.0,1,0,A/5. 3336,16.1,,Southampton,Perished,female,With Family
+618,619,1,Middle Class,"Becker, Miss. Marion Louise",female,4.0,2,1,230136,39.0,F4,Southampton,Survived,child,With Family
+619,620,0,Middle Class,"Gavey, Mr. Lawrence",male,26.0,0,0,31028,10.5,,Southampton,Perished,male,Alone
+620,621,0,Lower Class,"Yasbeck, Mr. Antoni",male,27.0,1,0,2659,14.4542,,Cherbourg,Perished,male,With Family
+621,622,1,Upper Class,"Kimball, Mr. Edwin Nelson Jr",male,42.0,1,0,11753,52.5542,D19,Southampton,Survived,male,With Family
+622,623,1,Lower Class,"Nakid, Mr. Sahid",male,20.0,1,1,2653,15.7417,,Cherbourg,Survived,male,With Family
+623,624,0,Lower Class,"Hansen, Mr. Henry Damsgaard",male,21.0,0,0,350029,7.8542,,Southampton,Perished,male,Alone
+624,625,0,Lower Class,"Bowen, Mr. David John ""Dai""",male,21.0,0,0,54636,16.1,,Southampton,Perished,male,Alone
+625,626,0,Upper Class,"Sutton, Mr. Frederick",male,61.0,0,0,36963,32.3208,D50,Southampton,Perished,male,Alone
+626,627,0,Middle Class,"Kirkland, Rev. Charles Leonard",male,57.0,0,0,219533,12.35,,Queenstown,Perished,male,Alone
+627,628,1,Upper Class,"Longley, Miss. Gretchen Fiske",female,21.0,0,0,13502,77.9583,D9,Southampton,Survived,female,Alone
+628,629,0,Lower Class,"Bostandyeff, Mr. Guentcho",male,26.0,0,0,349224,7.8958,,Southampton,Perished,male,Alone
+629,630,0,Lower Class,"O'Connell, Mr. Patrick D",male,,0,0,334912,7.7333,,Queenstown,Perished,male,Alone
+630,631,1,Upper Class,"Barkworth, Mr. Algernon Henry Wilson",male,80.0,0,0,27042,30.0,A23,Southampton,Survived,male,Alone
+631,632,0,Lower Class,"Lundahl, Mr. Johan Svensson",male,51.0,0,0,347743,7.0542,,Southampton,Perished,male,Alone
+632,633,1,Upper Class,"Stahelin-Maeglin, Dr. Max",male,32.0,0,0,13214,30.5,B50,Cherbourg,Survived,male,Alone
+633,634,0,Upper Class,"Parr, Mr. William Henry Marsh",male,,0,0,112052,0.0,,Southampton,Perished,male,Alone
+634,635,0,Lower Class,"Skoog, Miss. Mabel",female,9.0,3,2,347088,27.9,,Southampton,Perished,child,With Family
+635,636,1,Middle Class,"Davis, Miss. Mary",female,28.0,0,0,237668,13.0,,Southampton,Survived,female,Alone
+636,637,0,Lower Class,"Leinonen, Mr. Antti Gustaf",male,32.0,0,0,STON/O 2. 3101292,7.925,,Southampton,Perished,male,Alone
+637,638,0,Middle Class,"Collyer, Mr. Harvey",male,31.0,1,1,C.A. 31921,26.25,,Southampton,Perished,male,With Family
+638,639,0,Lower Class,"Panula, Mrs. Juha (Maria Emilia Ojala)",female,41.0,0,5,3101295,39.6875,,Southampton,Perished,female,With Family
+639,640,0,Lower Class,"Thorneycroft, Mr. Percival",male,,1,0,376564,16.1,,Southampton,Perished,male,With Family
+640,641,0,Lower Class,"Jensen, Mr. Hans Peder",male,20.0,0,0,350050,7.8542,,Southampton,Perished,male,Alone
+641,642,1,Upper Class,"Sagesser, Mlle. Emma",female,24.0,0,0,PC 17477,69.3,B35,Cherbourg,Survived,female,Alone
+642,643,0,Lower Class,"Skoog, Miss. Margit Elizabeth",female,2.0,3,2,347088,27.9,,Southampton,Perished,child,With Family
+643,644,1,Lower Class,"Foo, Mr. Choong",male,,0,0,1601,56.4958,,Southampton,Survived,male,Alone
+644,645,1,Lower Class,"Baclini, Miss. Eugenie",female,0.75,2,1,2666,19.2583,,Cherbourg,Survived,child,With Family
+645,646,1,Upper Class,"Harper, Mr. Henry Sleeper",male,48.0,1,0,PC 17572,76.7292,D33,Cherbourg,Survived,male,With Family
+646,647,0,Lower Class,"Cor, Mr. Liudevit",male,19.0,0,0,349231,7.8958,,Southampton,Perished,male,Alone
+647,648,1,Upper Class,"Simonius-Blumer, Col. Oberst Alfons",male,56.0,0,0,13213,35.5,A26,Cherbourg,Survived,male,Alone
+648,649,0,Lower Class,"Willey, Mr. Edward",male,,0,0,S.O./P.P. 751,7.55,,Southampton,Perished,male,Alone
+649,650,1,Lower Class,"Stanley, Miss. Amy Zillah Elsie",female,23.0,0,0,CA. 2314,7.55,,Southampton,Survived,female,Alone
+650,651,0,Lower Class,"Mitkoff, Mr. Mito",male,,0,0,349221,7.8958,,Southampton,Perished,male,Alone
+651,652,1,Middle Class,"Doling, Miss. Elsie",female,18.0,0,1,231919,23.0,,Southampton,Survived,female,With Family
+652,653,0,Lower Class,"Kalvik, Mr. Johannes Halvorsen",male,21.0,0,0,8475,8.4333,,Southampton,Perished,male,Alone
+653,654,1,Lower Class,"O'Leary, Miss. Hanora ""Norah""",female,,0,0,330919,7.8292,,Queenstown,Survived,female,Alone
+654,655,0,Lower Class,"Hegarty, Miss. Hanora ""Nora""",female,18.0,0,0,365226,6.75,,Queenstown,Perished,female,Alone
+655,656,0,Middle Class,"Hickman, Mr. Leonard Mark",male,24.0,2,0,S.O.C. 14879,73.5,,Southampton,Perished,male,With Family
+656,657,0,Lower Class,"Radeff, Mr. Alexander",male,,0,0,349223,7.8958,,Southampton,Perished,male,Alone
+657,658,0,Lower Class,"Bourke, Mrs. John (Catherine)",female,32.0,1,1,364849,15.5,,Queenstown,Perished,female,With Family
+658,659,0,Middle Class,"Eitemiller, Mr. George Floyd",male,23.0,0,0,29751,13.0,,Southampton,Perished,male,Alone
+659,660,0,Upper Class,"Newell, Mr. Arthur Webster",male,58.0,0,2,35273,113.275,D48,Cherbourg,Perished,male,With Family
+660,661,1,Upper Class,"Frauenthal, Dr. Henry William",male,50.0,2,0,PC 17611,133.65,,Southampton,Survived,male,With Family
+661,662,0,Lower Class,"Badt, Mr. Mohamed",male,40.0,0,0,2623,7.225,,Cherbourg,Perished,male,Alone
+662,663,0,Upper Class,"Colley, Mr. Edward Pomeroy",male,47.0,0,0,5727,25.5875,E58,Southampton,Perished,male,Alone
+663,664,0,Lower Class,"Coleff, Mr. Peju",male,36.0,0,0,349210,7.4958,,Southampton,Perished,male,Alone
+664,665,1,Lower Class,"Lindqvist, Mr. Eino William",male,20.0,1,0,STON/O 2. 3101285,7.925,,Southampton,Survived,male,With Family
+665,666,0,Middle Class,"Hickman, Mr. Lewis",male,32.0,2,0,S.O.C. 14879,73.5,,Southampton,Perished,male,With Family
+666,667,0,Middle Class,"Butler, Mr. Reginald Fenton",male,25.0,0,0,234686,13.0,,Southampton,Perished,male,Alone
+667,668,0,Lower Class,"Rommetvedt, Mr. Knud Paust",male,,0,0,312993,7.775,,Southampton,Perished,male,Alone
+668,669,0,Lower Class,"Cook, Mr. Jacob",male,43.0,0,0,A/5 3536,8.05,,Southampton,Perished,male,Alone
+669,670,1,Upper Class,"Taylor, Mrs. Elmer Zebley (Juliet Cummins Wright)",female,,1,0,19996,52.0,C126,Southampton,Survived,female,With Family
+670,671,1,Middle Class,"Brown, Mrs. Thomas William Solomon (Elizabeth Catherine Ford)",female,40.0,1,1,29750,39.0,,Southampton,Survived,female,With Family
+671,672,0,Upper Class,"Davidson, Mr. Thornton",male,31.0,1,0,F.C. 12750,52.0,B71,Southampton,Perished,male,With Family
+672,673,0,Middle Class,"Mitchell, Mr. Henry Michael",male,70.0,0,0,C.A. 24580,10.5,,Southampton,Perished,male,Alone
+673,674,1,Middle Class,"Wilhelms, Mr. Charles",male,31.0,0,0,244270,13.0,,Southampton,Survived,male,Alone
+674,675,0,Middle Class,"Watson, Mr. Ennis Hastings",male,,0,0,239856,0.0,,Southampton,Perished,male,Alone
+675,676,0,Lower Class,"Edvardsson, Mr. Gustaf Hjalmar",male,18.0,0,0,349912,7.775,,Southampton,Perished,male,Alone
+676,677,0,Lower Class,"Sawyer, Mr. Frederick Charles",male,24.5,0,0,342826,8.05,,Southampton,Perished,male,Alone
+677,678,1,Lower Class,"Turja, Miss. Anna Sofia",female,18.0,0,0,4138,9.8417,,Southampton,Survived,female,Alone
+678,679,0,Lower Class,"Goodwin, Mrs. Frederick (Augusta Tyler)",female,43.0,1,6,CA 2144,46.9,,Southampton,Perished,female,With Family
+679,680,1,Upper Class,"Cardeza, Mr. Thomas Drake Martinez",male,36.0,0,1,PC 17755,512.3292,B51 B53 B55,Cherbourg,Survived,male,With Family
+680,681,0,Lower Class,"Peters, Miss. Katie",female,,0,0,330935,8.1375,,Queenstown,Perished,female,Alone
+681,682,1,Upper Class,"Hassab, Mr. Hammad",male,27.0,0,0,PC 17572,76.7292,D49,Cherbourg,Survived,male,Alone
+682,683,0,Lower Class,"Olsvigen, Mr. Thor Anderson",male,20.0,0,0,6563,9.225,,Southampton,Perished,male,Alone
+683,684,0,Lower Class,"Goodwin, Mr. Charles Edward",male,14.0,5,2,CA 2144,46.9,,Southampton,Perished,child,With Family
+684,685,0,Middle Class,"Brown, Mr. Thomas William Solomon",male,60.0,1,1,29750,39.0,,Southampton,Perished,male,With Family
+685,686,0,Middle Class,"Laroche, Mr. Joseph Philippe Lemercier",male,25.0,1,2,SC/Paris 2123,41.5792,,Cherbourg,Perished,male,With Family
+686,687,0,Lower Class,"Panula, Mr. Jaako Arnold",male,14.0,4,1,3101295,39.6875,,Southampton,Perished,child,With Family
+687,688,0,Lower Class,"Dakic, Mr. Branko",male,19.0,0,0,349228,10.1708,,Southampton,Perished,male,Alone
+688,689,0,Lower Class,"Fischer, Mr. Eberhard Thelander",male,18.0,0,0,350036,7.7958,,Southampton,Perished,male,Alone
+689,690,1,Upper Class,"Madill, Miss. Georgette Alexandra",female,15.0,0,1,24160,211.3375,B5,Southampton,Survived,child,With Family
+690,691,1,Upper Class,"Dick, Mr. Albert Adrian",male,31.0,1,0,17474,57.0,B20,Southampton,Survived,male,With Family
+691,692,1,Lower Class,"Karun, Miss. Manca",female,4.0,0,1,349256,13.4167,,Cherbourg,Survived,child,With Family
+692,693,1,Lower Class,"Lam, Mr. Ali",male,,0,0,1601,56.4958,,Southampton,Survived,male,Alone
+693,694,0,Lower Class,"Saad, Mr. Khalil",male,25.0,0,0,2672,7.225,,Cherbourg,Perished,male,Alone
+694,695,0,Upper Class,"Weir, Col. John",male,60.0,0,0,113800,26.55,,Southampton,Perished,male,Alone
+695,696,0,Middle Class,"Chapman, Mr. Charles Henry",male,52.0,0,0,248731,13.5,,Southampton,Perished,male,Alone
+696,697,0,Lower Class,"Kelly, Mr. James",male,44.0,0,0,363592,8.05,,Southampton,Perished,male,Alone
+697,698,1,Lower Class,"Mullens, Miss. Katherine ""Katie""",female,,0,0,35852,7.7333,,Queenstown,Survived,female,Alone
+698,699,0,Upper Class,"Thayer, Mr. John Borland",male,49.0,1,1,17421,110.8833,C68,Cherbourg,Perished,male,With Family
+699,700,0,Lower Class,"Humblen, Mr. Adolf Mathias Nicolai Olsen",male,42.0,0,0,348121,7.65,F G63,Southampton,Perished,male,Alone
+700,701,1,Upper Class,"Astor, Mrs. John Jacob (Madeleine Talmadge Force)",female,18.0,1,0,PC 17757,227.525,C62 C64,Cherbourg,Survived,female,With Family
+701,702,1,Upper Class,"Silverthorne, Mr. Spencer Victor",male,35.0,0,0,PC 17475,26.2875,E24,Southampton,Survived,male,Alone
+702,703,0,Lower Class,"Barbara, Miss. Saiide",female,18.0,0,1,2691,14.4542,,Cherbourg,Perished,female,With Family
+703,704,0,Lower Class,"Gallagher, Mr. Martin",male,25.0,0,0,36864,7.7417,,Queenstown,Perished,male,Alone
+704,705,0,Lower Class,"Hansen, Mr. Henrik Juul",male,26.0,1,0,350025,7.8542,,Southampton,Perished,male,With Family
+705,706,0,Middle Class,"Morley, Mr. Henry Samuel (""Mr Henry Marshall"")",male,39.0,0,0,250655,26.0,,Southampton,Perished,male,Alone
+706,707,1,Middle Class,"Kelly, Mrs. Florence ""Fannie""",female,45.0,0,0,223596,13.5,,Southampton,Survived,female,Alone
+707,708,1,Upper Class,"Calderhead, Mr. Edward Pennington",male,42.0,0,0,PC 17476,26.2875,E24,Southampton,Survived,male,Alone
+708,709,1,Upper Class,"Cleaver, Miss. Alice",female,22.0,0,0,113781,151.55,,Southampton,Survived,female,Alone
+709,710,1,Lower Class,"Moubarek, Master. Halim Gonios (""William George"")",male,,1,1,2661,15.2458,,Cherbourg,Survived,male,With Family
+710,711,1,Upper Class,"Mayne, Mlle. Berthe Antonine (""Mrs de Villiers"")",female,24.0,0,0,PC 17482,49.5042,C90,Cherbourg,Survived,female,Alone
+711,712,0,Upper Class,"Klaber, Mr. Herman",male,,0,0,113028,26.55,C124,Southampton,Perished,male,Alone
+712,713,1,Upper Class,"Taylor, Mr. Elmer Zebley",male,48.0,1,0,19996,52.0,C126,Southampton,Survived,male,With Family
+713,714,0,Lower Class,"Larsson, Mr. August Viktor",male,29.0,0,0,7545,9.4833,,Southampton,Perished,male,Alone
+714,715,0,Middle Class,"Greenberg, Mr. Samuel",male,52.0,0,0,250647,13.0,,Southampton,Perished,male,Alone
+715,716,0,Lower Class,"Soholt, Mr. Peter Andreas Lauritz Andersen",male,19.0,0,0,348124,7.65,F G73,Southampton,Perished,male,Alone
+716,717,1,Upper Class,"Endres, Miss. Caroline Louise",female,38.0,0,0,PC 17757,227.525,C45,Cherbourg,Survived,female,Alone
+717,718,1,Middle Class,"Troutt, Miss. Edwina Celia ""Winnie""",female,27.0,0,0,34218,10.5,E101,Southampton,Survived,female,Alone
+718,719,0,Lower Class,"McEvoy, Mr. Michael",male,,0,0,36568,15.5,,Queenstown,Perished,male,Alone
+719,720,0,Lower Class,"Johnson, Mr. Malkolm Joackim",male,33.0,0,0,347062,7.775,,Southampton,Perished,male,Alone
+720,721,1,Middle Class,"Harper, Miss. Annie Jessie ""Nina""",female,6.0,0,1,248727,33.0,,Southampton,Survived,child,With Family
+721,722,0,Lower Class,"Jensen, Mr. Svend Lauritz",male,17.0,1,0,350048,7.0542,,Southampton,Perished,male,With Family
+722,723,0,Middle Class,"Gillespie, Mr. William Henry",male,34.0,0,0,12233,13.0,,Southampton,Perished,male,Alone
+723,724,0,Middle Class,"Hodges, Mr. Henry Price",male,50.0,0,0,250643,13.0,,Southampton,Perished,male,Alone
+724,725,1,Upper Class,"Chambers, Mr. Norman Campbell",male,27.0,1,0,113806,53.1,E8,Southampton,Survived,male,With Family
+725,726,0,Lower Class,"Oreskovic, Mr. Luka",male,20.0,0,0,315094,8.6625,,Southampton,Perished,male,Alone
+726,727,1,Middle Class,"Renouf, Mrs. Peter Henry (Lillian Jefferys)",female,30.0,3,0,31027,21.0,,Southampton,Survived,female,With Family
+727,728,1,Lower Class,"Mannion, Miss. Margareth",female,,0,0,36866,7.7375,,Queenstown,Survived,female,Alone
+728,729,0,Middle Class,"Bryhl, Mr. Kurt Arnold Gottfrid",male,25.0,1,0,236853,26.0,,Southampton,Perished,male,With Family
+729,730,0,Lower Class,"Ilmakangas, Miss. Pieta Sofia",female,25.0,1,0,STON/O2. 3101271,7.925,,Southampton,Perished,female,With Family
+730,731,1,Upper Class,"Allen, Miss. Elisabeth Walton",female,29.0,0,0,24160,211.3375,B5,Southampton,Survived,female,Alone
+731,732,0,Lower Class,"Hassan, Mr. Houssein G N",male,11.0,0,0,2699,18.7875,,Cherbourg,Perished,child,Alone
+732,733,0,Middle Class,"Knight, Mr. Robert J",male,,0,0,239855,0.0,,Southampton,Perished,male,Alone
+733,734,0,Middle Class,"Berriman, Mr. William John",male,23.0,0,0,28425,13.0,,Southampton,Perished,male,Alone
+734,735,0,Middle Class,"Troupiansky, Mr. Moses Aaron",male,23.0,0,0,233639,13.0,,Southampton,Perished,male,Alone
+735,736,0,Lower Class,"Williams, Mr. Leslie",male,28.5,0,0,54636,16.1,,Southampton,Perished,male,Alone
+736,737,0,Lower Class,"Ford, Mrs. Edward (Margaret Ann Watson)",female,48.0,1,3,W./C. 6608,34.375,,Southampton,Perished,female,With Family
+737,738,1,Upper Class,"Lesurer, Mr. Gustave J",male,35.0,0,0,PC 17755,512.3292,B101,Cherbourg,Survived,male,Alone
+738,739,0,Lower Class,"Ivanoff, Mr. Kanio",male,,0,0,349201,7.8958,,Southampton,Perished,male,Alone
+739,740,0,Lower Class,"Nankoff, Mr. Minko",male,,0,0,349218,7.8958,,Southampton,Perished,male,Alone
+740,741,1,Upper Class,"Hawksford, Mr. Walter James",male,,0,0,16988,30.0,D45,Southampton,Survived,male,Alone
+741,742,0,Upper Class,"Cavendish, Mr. Tyrell William",male,36.0,1,0,19877,78.85,C46,Southampton,Perished,male,With Family
+742,743,1,Upper Class,"Ryerson, Miss. Susan Parker ""Suzette""",female,21.0,2,2,PC 17608,262.375,B57 B59 B63 B66,Cherbourg,Survived,female,With Family
+743,744,0,Lower Class,"McNamee, Mr. Neal",male,24.0,1,0,376566,16.1,,Southampton,Perished,male,With Family
+744,745,1,Lower Class,"Stranden, Mr. Juho",male,31.0,0,0,STON/O 2. 3101288,7.925,,Southampton,Survived,male,Alone
+745,746,0,Upper Class,"Crosby, Capt. Edward Gifford",male,70.0,1,1,WE/P 5735,71.0,B22,Southampton,Perished,male,With Family
+746,747,0,Lower Class,"Abbott, Mr. Rossmore Edward",male,16.0,1,1,C.A. 2673,20.25,,Southampton,Perished,male,With Family
+747,748,1,Middle Class,"Sinkkonen, Miss. Anna",female,30.0,0,0,250648,13.0,,Southampton,Survived,female,Alone
+748,749,0,Upper Class,"Marvin, Mr. Daniel Warner",male,19.0,1,0,113773,53.1,D30,Southampton,Perished,male,With Family
+749,750,0,Lower Class,"Connaghton, Mr. Michael",male,31.0,0,0,335097,7.75,,Queenstown,Perished,male,Alone
+750,751,1,Middle Class,"Wells, Miss. Joan",female,4.0,1,1,29103,23.0,,Southampton,Survived,child,With Family
+751,752,1,Lower Class,"Moor, Master. Meier",male,6.0,0,1,392096,12.475,E121,Southampton,Survived,child,With Family
+752,753,0,Lower Class,"Vande Velde, Mr. Johannes Joseph",male,33.0,0,0,345780,9.5,,Southampton,Perished,male,Alone
+753,754,0,Lower Class,"Jonkoff, Mr. Lalio",male,23.0,0,0,349204,7.8958,,Southampton,Perished,male,Alone
+754,755,1,Middle Class,"Herman, Mrs. Samuel (Jane Laver)",female,48.0,1,2,220845,65.0,,Southampton,Survived,female,With Family
+755,756,1,Middle Class,"Hamalainen, Master. Viljo",male,0.67,1,1,250649,14.5,,Southampton,Survived,child,With Family
+756,757,0,Lower Class,"Carlsson, Mr. August Sigfrid",male,28.0,0,0,350042,7.7958,,Southampton,Perished,male,Alone
+757,758,0,Middle Class,"Bailey, Mr. Percy Andrew",male,18.0,0,0,29108,11.5,,Southampton,Perished,male,Alone
+758,759,0,Lower Class,"Theobald, Mr. Thomas Leonard",male,34.0,0,0,363294,8.05,,Southampton,Perished,male,Alone
+759,760,1,Upper Class,"Rothes, the Countess. of (Lucy Noel Martha Dyer-Edwards)",female,33.0,0,0,110152,86.5,B77,Southampton,Survived,female,Alone
+760,761,0,Lower Class,"Garfirth, Mr. John",male,,0,0,358585,14.5,,Southampton,Perished,male,Alone
+761,762,0,Lower Class,"Nirva, Mr. Iisakki Antino Aijo",male,41.0,0,0,SOTON/O2 3101272,7.125,,Southampton,Perished,male,Alone
+762,763,1,Lower Class,"Barah, Mr. Hanna Assi",male,20.0,0,0,2663,7.2292,,Cherbourg,Survived,male,Alone
+763,764,1,Upper Class,"Carter, Mrs. William Ernest (Lucile Polk)",female,36.0,1,2,113760,120.0,B96 B98,Southampton,Survived,female,With Family
+764,765,0,Lower Class,"Eklund, Mr. Hans Linus",male,16.0,0,0,347074,7.775,,Southampton,Perished,male,Alone
+765,766,1,Upper Class,"Hogeboom, Mrs. John C (Anna Andrews)",female,51.0,1,0,13502,77.9583,D11,Southampton,Survived,female,With Family
+766,767,0,Upper Class,"Brewe, Dr. Arthur Jackson",male,,0,0,112379,39.6,,Cherbourg,Perished,male,Alone
+767,768,0,Lower Class,"Mangan, Miss. Mary",female,30.5,0,0,364850,7.75,,Queenstown,Perished,female,Alone
+768,769,0,Lower Class,"Moran, Mr. Daniel J",male,,1,0,371110,24.15,,Queenstown,Perished,male,With Family
+769,770,0,Lower Class,"Gronnestad, Mr. Daniel Danielsen",male,32.0,0,0,8471,8.3625,,Southampton,Perished,male,Alone
+770,771,0,Lower Class,"Lievens, Mr. Rene Aime",male,24.0,0,0,345781,9.5,,Southampton,Perished,male,Alone
+771,772,0,Lower Class,"Jensen, Mr. Niels Peder",male,48.0,0,0,350047,7.8542,,Southampton,Perished,male,Alone
+772,773,0,Middle Class,"Mack, Mrs. (Mary)",female,57.0,0,0,S.O./P.P. 3,10.5,E77,Southampton,Perished,female,Alone
+773,774,0,Lower Class,"Elias, Mr. Dibo",male,,0,0,2674,7.225,,Cherbourg,Perished,male,Alone
+774,775,1,Middle Class,"Hocking, Mrs. Elizabeth (Eliza Needs)",female,54.0,1,3,29105,23.0,,Southampton,Survived,female,With Family
+775,776,0,Lower Class,"Myhrman, Mr. Pehr Fabian Oliver Malkolm",male,18.0,0,0,347078,7.75,,Southampton,Perished,male,Alone
+776,777,0,Lower Class,"Tobin, Mr. Roger",male,,0,0,383121,7.75,F38,Queenstown,Perished,male,Alone
+777,778,1,Lower Class,"Emanuel, Miss. Virginia Ethel",female,5.0,0,0,364516,12.475,,Southampton,Survived,child,Alone
+778,779,0,Lower Class,"Kilgannon, Mr. Thomas J",male,,0,0,36865,7.7375,,Queenstown,Perished,male,Alone
+779,780,1,Upper Class,"Robert, Mrs. Edward Scott (Elisabeth Walton McMillan)",female,43.0,0,1,24160,211.3375,B3,Southampton,Survived,female,With Family
+780,781,1,Lower Class,"Ayoub, Miss. Banoura",female,13.0,0,0,2687,7.2292,,Cherbourg,Survived,child,Alone
+781,782,1,Upper Class,"Dick, Mrs. Albert Adrian (Vera Gillespie)",female,17.0,1,0,17474,57.0,B20,Southampton,Survived,female,With Family
+782,783,0,Upper Class,"Long, Mr. Milton Clyde",male,29.0,0,0,113501,30.0,D6,Southampton,Perished,male,Alone
+783,784,0,Lower Class,"Johnston, Mr. Andrew G",male,,1,2,W./C. 6607,23.45,,Southampton,Perished,male,With Family
+784,785,0,Lower Class,"Ali, Mr. William",male,25.0,0,0,SOTON/O.Q. 3101312,7.05,,Southampton,Perished,male,Alone
+785,786,0,Lower Class,"Harmer, Mr. Abraham (David Lishin)",male,25.0,0,0,374887,7.25,,Southampton,Perished,male,Alone
+786,787,1,Lower Class,"Sjoblom, Miss. Anna Sofia",female,18.0,0,0,3101265,7.4958,,Southampton,Survived,female,Alone
+787,788,0,Lower Class,"Rice, Master. George Hugh",male,8.0,4,1,382652,29.125,,Queenstown,Perished,child,With Family
+788,789,1,Lower Class,"Dean, Master. Bertram Vere",male,1.0,1,2,C.A. 2315,20.575,,Southampton,Survived,child,With Family
+789,790,0,Upper Class,"Guggenheim, Mr. Benjamin",male,46.0,0,0,PC 17593,79.2,B82 B84,Cherbourg,Perished,male,Alone
+790,791,0,Lower Class,"Keane, Mr. Andrew ""Andy""",male,,0,0,12460,7.75,,Queenstown,Perished,male,Alone
+791,792,0,Middle Class,"Gaskell, Mr. Alfred",male,16.0,0,0,239865,26.0,,Southampton,Perished,male,Alone
+792,793,0,Lower Class,"Sage, Miss. Stella Anna",female,,8,2,CA. 2343,69.55,,Southampton,Perished,female,With Family
+793,794,0,Upper Class,"Hoyt, Mr. William Fisher",male,,0,0,PC 17600,30.6958,,Cherbourg,Perished,male,Alone
+794,795,0,Lower Class,"Dantcheff, Mr. Ristiu",male,25.0,0,0,349203,7.8958,,Southampton,Perished,male,Alone
+795,796,0,Middle Class,"Otter, Mr. Richard",male,39.0,0,0,28213,13.0,,Southampton,Perished,male,Alone
+796,797,1,Upper Class,"Leader, Dr. Alice (Farnham)",female,49.0,0,0,17465,25.9292,D17,Southampton,Survived,female,Alone
+797,798,1,Lower Class,"Osman, Mrs. Mara",female,31.0,0,0,349244,8.6833,,Southampton,Survived,female,Alone
+798,799,0,Lower Class,"Ibrahim Shawah, Mr. Yousseff",male,30.0,0,0,2685,7.2292,,Cherbourg,Perished,male,Alone
+799,800,0,Lower Class,"Van Impe, Mrs. Jean Baptiste (Rosalie Paula Govaert)",female,30.0,1,1,345773,24.15,,Southampton,Perished,female,With Family
+800,801,0,Middle Class,"Ponesell, Mr. Martin",male,34.0,0,0,250647,13.0,,Southampton,Perished,male,Alone
+801,802,1,Middle Class,"Collyer, Mrs. Harvey (Charlotte Annie Tate)",female,31.0,1,1,C.A. 31921,26.25,,Southampton,Survived,female,With Family
+802,803,1,Upper Class,"Carter, Master. William Thornton II",male,11.0,1,2,113760,120.0,B96 B98,Southampton,Survived,child,With Family
+803,804,1,Lower Class,"Thomas, Master. Assad Alexander",male,0.42,0,1,2625,8.5167,,Cherbourg,Survived,child,With Family
+804,805,1,Lower Class,"Hedman, Mr. Oskar Arvid",male,27.0,0,0,347089,6.975,,Southampton,Survived,male,Alone
+805,806,0,Lower Class,"Johansson, Mr. Karl Johan",male,31.0,0,0,347063,7.775,,Southampton,Perished,male,Alone
+806,807,0,Upper Class,"Andrews, Mr. Thomas Jr",male,39.0,0,0,112050,0.0,A36,Southampton,Perished,male,Alone
+807,808,0,Lower Class,"Pettersson, Miss. Ellen Natalia",female,18.0,0,0,347087,7.775,,Southampton,Perished,female,Alone
+808,809,0,Middle Class,"Meyer, Mr. August",male,39.0,0,0,248723,13.0,,Southampton,Perished,male,Alone
+809,810,1,Upper Class,"Chambers, Mrs. Norman Campbell (Bertha Griggs)",female,33.0,1,0,113806,53.1,E8,Southampton,Survived,female,With Family
+810,811,0,Lower Class,"Alexander, Mr. William",male,26.0,0,0,3474,7.8875,,Southampton,Perished,male,Alone
+811,812,0,Lower Class,"Lester, Mr. James",male,39.0,0,0,A/4 48871,24.15,,Southampton,Perished,male,Alone
+812,813,0,Middle Class,"Slemen, Mr. Richard James",male,35.0,0,0,28206,10.5,,Southampton,Perished,male,Alone
+813,814,0,Lower Class,"Andersson, Miss. Ebba Iris Alfrida",female,6.0,4,2,347082,31.275,,Southampton,Perished,child,With Family
+814,815,0,Lower Class,"Tomlin, Mr. Ernest Portage",male,30.5,0,0,364499,8.05,,Southampton,Perished,male,Alone
+815,816,0,Upper Class,"Fry, Mr. Richard",male,,0,0,112058,0.0,B102,Southampton,Perished,male,Alone
+816,817,0,Lower Class,"Heininen, Miss. Wendla Maria",female,23.0,0,0,STON/O2. 3101290,7.925,,Southampton,Perished,female,Alone
+817,818,0,Middle Class,"Mallet, Mr. Albert",male,31.0,1,1,S.C./PARIS 2079,37.0042,,Cherbourg,Perished,male,With Family
+818,819,0,Lower Class,"Holm, Mr. John Fredrik Alexander",male,43.0,0,0,C 7075,6.45,,Southampton,Perished,male,Alone
+819,820,0,Lower Class,"Skoog, Master. Karl Thorsten",male,10.0,3,2,347088,27.9,,Southampton,Perished,child,With Family
+820,821,1,Upper Class,"Hays, Mrs. Charles Melville (Clara Jennings Gregg)",female,52.0,1,1,12749,93.5,B69,Southampton,Survived,female,With Family
+821,822,1,Lower Class,"Lulic, Mr. Nikola",male,27.0,0,0,315098,8.6625,,Southampton,Survived,male,Alone
+822,823,0,Upper Class,"Reuchlin, Jonkheer. John George",male,38.0,0,0,19972,0.0,,Southampton,Perished,male,Alone
+823,824,1,Lower Class,"Moor, Mrs. (Beila)",female,27.0,0,1,392096,12.475,E121,Southampton,Survived,female,With Family
+824,825,0,Lower Class,"Panula, Master. Urho Abraham",male,2.0,4,1,3101295,39.6875,,Southampton,Perished,child,With Family
+825,826,0,Lower Class,"Flynn, Mr. John",male,,0,0,368323,6.95,,Queenstown,Perished,male,Alone
+826,827,0,Lower Class,"Lam, Mr. Len",male,,0,0,1601,56.4958,,Southampton,Perished,male,Alone
+827,828,1,Middle Class,"Mallet, Master. Andre",male,1.0,0,2,S.C./PARIS 2079,37.0042,,Cherbourg,Survived,child,With Family
+828,829,1,Lower Class,"McCormack, Mr. Thomas Joseph",male,,0,0,367228,7.75,,Queenstown,Survived,male,Alone
+829,830,1,Upper Class,"Stone, Mrs. George Nelson (Martha Evelyn)",female,62.0,0,0,113572,80.0,B28,Southampton,Survived,female,Alone
+830,831,1,Lower Class,"Yasbeck, Mrs. Antoni (Selini Alexander)",female,15.0,1,0,2659,14.4542,,Cherbourg,Survived,child,With Family
+831,832,1,Middle Class,"Richards, Master. George Sibley",male,0.83,1,1,29106,18.75,,Southampton,Survived,child,With Family
+832,833,0,Lower Class,"Saad, Mr. Amin",male,,0,0,2671,7.2292,,Cherbourg,Perished,male,Alone
+833,834,0,Lower Class,"Augustsson, Mr. Albert",male,23.0,0,0,347468,7.8542,,Southampton,Perished,male,Alone
+834,835,0,Lower Class,"Allum, Mr. Owen George",male,18.0,0,0,2223,8.3,,Southampton,Perished,male,Alone
+835,836,1,Upper Class,"Compton, Miss. Sara Rebecca",female,39.0,1,1,PC 17756,83.1583,E49,Cherbourg,Survived,female,With Family
+836,837,0,Lower Class,"Pasic, Mr. Jakob",male,21.0,0,0,315097,8.6625,,Southampton,Perished,male,Alone
+837,838,0,Lower Class,"Sirota, Mr. Maurice",male,,0,0,392092,8.05,,Southampton,Perished,male,Alone
+838,839,1,Lower Class,"Chip, Mr. Chang",male,32.0,0,0,1601,56.4958,,Southampton,Survived,male,Alone
+839,840,1,Upper Class,"Marechal, Mr. Pierre",male,,0,0,11774,29.7,C47,Cherbourg,Survived,male,Alone
+840,841,0,Lower Class,"Alhomaki, Mr. Ilmari Rudolf",male,20.0,0,0,SOTON/O2 3101287,7.925,,Southampton,Perished,male,Alone
+841,842,0,Middle Class,"Mudd, Mr. Thomas Charles",male,16.0,0,0,S.O./P.P. 3,10.5,,Southampton,Perished,male,Alone
+842,843,1,Upper Class,"Serepeca, Miss. Augusta",female,30.0,0,0,113798,31.0,,Cherbourg,Survived,female,Alone
+843,844,0,Lower Class,"Lemberopolous, Mr. Peter L",male,34.5,0,0,2683,6.4375,,Cherbourg,Perished,male,Alone
+844,845,0,Lower Class,"Culumovic, Mr. Jeso",male,17.0,0,0,315090,8.6625,,Southampton,Perished,male,Alone
+845,846,0,Lower Class,"Abbing, Mr. Anthony",male,42.0,0,0,C.A. 5547,7.55,,Southampton,Perished,male,Alone
+846,847,0,Lower Class,"Sage, Mr. Douglas Bullen",male,,8,2,CA. 2343,69.55,,Southampton,Perished,male,With Family
+847,848,0,Lower Class,"Markoff, Mr. Marin",male,35.0,0,0,349213,7.8958,,Cherbourg,Perished,male,Alone
+848,849,0,Middle Class,"Harper, Rev. John",male,28.0,0,1,248727,33.0,,Southampton,Perished,male,With Family
+849,850,1,Upper Class,"Goldenberg, Mrs. Samuel L (Edwiga Grabowska)",female,,1,0,17453,89.1042,C92,Cherbourg,Survived,female,With Family
+850,851,0,Lower Class,"Andersson, Master. Sigvard Harald Elias",male,4.0,4,2,347082,31.275,,Southampton,Perished,child,With Family
+851,852,0,Lower Class,"Svensson, Mr. Johan",male,74.0,0,0,347060,7.775,,Southampton,Perished,male,Alone
+852,853,0,Lower Class,"Boulos, Miss. Nourelain",female,9.0,1,1,2678,15.2458,,Cherbourg,Perished,child,With Family
+853,854,1,Upper Class,"Lines, Miss. Mary Conover",female,16.0,0,1,PC 17592,39.4,D28,Southampton,Survived,female,With Family
+854,855,0,Middle Class,"Carter, Mrs. Ernest Courtenay (Lilian Hughes)",female,44.0,1,0,244252,26.0,,Southampton,Perished,female,With Family
+855,856,1,Lower Class,"Aks, Mrs. Sam (Leah Rosen)",female,18.0,0,1,392091,9.35,,Southampton,Survived,female,With Family
+856,857,1,Upper Class,"Wick, Mrs. George Dennick (Mary Hitchcock)",female,45.0,1,1,36928,164.8667,,Southampton,Survived,female,With Family
+857,858,1,Upper Class,"Daly, Mr. Peter Denis ",male,51.0,0,0,113055,26.55,E17,Southampton,Survived,male,Alone
+858,859,1,Lower Class,"Baclini, Mrs. Solomon (Latifa Qurban)",female,24.0,0,3,2666,19.2583,,Cherbourg,Survived,female,With Family
+859,860,0,Lower Class,"Razi, Mr. Raihed",male,,0,0,2629,7.2292,,Cherbourg,Perished,male,Alone
+860,861,0,Lower Class,"Hansen, Mr. Claus Peter",male,41.0,2,0,350026,14.1083,,Southampton,Perished,male,With Family
+861,862,0,Middle Class,"Giles, Mr. Frederick Edward",male,21.0,1,0,28134,11.5,,Southampton,Perished,male,With Family
+862,863,1,Upper Class,"Swift, Mrs. Frederick Joel (Margaret Welles Barron)",female,48.0,0,0,17466,25.9292,D17,Southampton,Survived,female,Alone
+863,864,0,Lower Class,"Sage, Miss. Dorothy Edith ""Dolly""",female,,8,2,CA. 2343,69.55,,Southampton,Perished,female,With Family
+864,865,0,Middle Class,"Gill, Mr. John William",male,24.0,0,0,233866,13.0,,Southampton,Perished,male,Alone
+865,866,1,Middle Class,"Bystrom, Mrs. (Karolina)",female,42.0,0,0,236852,13.0,,Southampton,Survived,female,Alone
+866,867,1,Middle Class,"Duran y More, Miss. Asuncion",female,27.0,1,0,SC/PARIS 2149,13.8583,,Cherbourg,Survived,female,With Family
+867,868,0,Upper Class,"Roebling, Mr. Washington Augustus II",male,31.0,0,0,PC 17590,50.4958,A24,Southampton,Perished,male,Alone
+868,869,0,Lower Class,"van Melkebeke, Mr. Philemon",male,,0,0,345777,9.5,,Southampton,Perished,male,Alone
+869,870,1,Lower Class,"Johnson, Master. Harold Theodor",male,4.0,1,1,347742,11.1333,,Southampton,Survived,child,With Family
+870,871,0,Lower Class,"Balkic, Mr. Cerin",male,26.0,0,0,349248,7.8958,,Southampton,Perished,male,Alone
+871,872,1,Upper Class,"Beckwith, Mrs. Richard Leonard (Sallie Monypeny)",female,47.0,1,1,11751,52.5542,D35,Southampton,Survived,female,With Family
+872,873,0,Upper Class,"Carlsson, Mr. Frans Olof",male,33.0,0,0,695,5.0,B51 B53 B55,Southampton,Perished,male,Alone
+873,874,0,Lower Class,"Vander Cruyssen, Mr. Victor",male,47.0,0,0,345765,9.0,,Southampton,Perished,male,Alone
+874,875,1,Middle Class,"Abelson, Mrs. Samuel (Hannah Wizosky)",female,28.0,1,0,P/PP 3381,24.0,,Cherbourg,Survived,female,With Family
+875,876,1,Lower Class,"Najib, Miss. Adele Kiamie ""Jane""",female,15.0,0,0,2667,7.225,,Cherbourg,Survived,child,Alone
+876,877,0,Lower Class,"Gustafsson, Mr. Alfred Ossian",male,20.0,0,0,7534,9.8458,,Southampton,Perished,male,Alone
+877,878,0,Lower Class,"Petroff, Mr. Nedelio",male,19.0,0,0,349212,7.8958,,Southampton,Perished,male,Alone
+878,879,0,Lower Class,"Laleff, Mr. Kristo",male,,0,0,349217,7.8958,,Southampton,Perished,male,Alone
+879,880,1,Upper Class,"Potter, Mrs. Thomas Jr (Lily Alexenia Wilson)",female,56.0,0,1,11767,83.1583,C50,Cherbourg,Survived,female,With Family
+880,881,1,Middle Class,"Shelley, Mrs. William (Imanita Parrish Hall)",female,25.0,0,1,230433,26.0,,Southampton,Survived,female,With Family
+881,882,0,Lower Class,"Markun, Mr. Johann",male,33.0,0,0,349257,7.8958,,Southampton,Perished,male,Alone
+882,883,0,Lower Class,"Dahlberg, Miss. Gerda Ulrika",female,22.0,0,0,7552,10.5167,,Southampton,Perished,female,Alone
+883,884,0,Middle Class,"Banfield, Mr. Frederick James",male,28.0,0,0,C.A./SOTON 34068,10.5,,Southampton,Perished,male,Alone
+884,885,0,Lower Class,"Sutehall, Mr. Henry Jr",male,25.0,0,0,SOTON/OQ 392076,7.05,,Southampton,Perished,male,Alone
+885,886,0,Lower Class,"Rice, Mrs. William (Margaret Norton)",female,39.0,0,5,382652,29.125,,Queenstown,Perished,female,With Family
+886,887,0,Middle Class,"Montvila, Rev. Juozas",male,27.0,0,0,211536,13.0,,Southampton,Perished,male,Alone
+887,888,1,Upper Class,"Graham, Miss. Margaret Edith",female,19.0,0,0,112053,30.0,B42,Southampton,Survived,female,Alone
+888,889,0,Lower Class,"Johnston, Miss. Catherine Helen ""Carrie""",female,,1,2,W./C. 6607,23.45,,Southampton,Perished,female,With Family
+889,890,1,Upper Class,"Behr, Mr. Karl Howell",male,26.0,0,0,111369,30.0,C148,Cherbourg,Survived,male,Alone
+890,891,0,Lower Class,"Dooley, Mr. Patrick",male,32.0,0,0,370376,7.75,,Queenstown,Perished,male,Alone
