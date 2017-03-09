@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="http://dimplejs.org/dist/dimple.v2.0.0.min.js"></script>
+
+  <style>
+      
+      h2 {
+        text-align: center;
+        text-decoration: underline;
+      } 
+      
+    </style>
+
+    <div id="buttons" class="cat_button" style="text-align:center;">
+      <button id="btn_person" class="gender"> Survival by Gender</button>
+      <button id="btn_alone" class="alone"> Survival by Family</button>
+      <button id="btn_embarked" class="embarked" >Survival by Location</button>
+    </div>
+
+    <div id="chartcontainer"></div>
+
+    <script type="text/javascript">
+      function draw(data) {
+      //debugger;
+      /*
+        D3.js setup code
+      */
+
+          "use strict";
+          var margin = 75,
+              width = 700 - margin,
+              height = 600 - margin;
+
+          //Chart title 
+          
+          d3.select("#chartcontainer")
+            .append("h2")
+            .text("Titanic Passenger Survival Visualization by Prasad Pagade:")
+
+
+          //Explain the charts - initial introduction
+
+          d3.select("#chartcontainer")
+          .append("p")
+          .text("The sinking of the RMS Titanic is one of the most infamous shipwrecks in history. On April 15, 1912, during her maiden voyage, the Titanic sank after colliding with an iceberg, killing 1502 out of 2224 passengers and crew. This sensational tragedy shocked the international community and led to better safety regulations for ships.")
+          .append("p")
+          .text("The dataset explored in this chart had survival information of 891 passnegers. Although there was some element of luck involved in surviving the sinking, some groups of people were more likely to survive than others, such as women, children, and the upper-class.")          
+          .append("p")
+          .text("Push the buttons on top to explore the chances of survival by gender, family and location embarked!");
+
+          var svg = d3.select("#chartcontainer")
+            .append("svg")
+              .attr("width", width + margin)
+              .attr("height", height + margin)
+            .append('g')
+                .attr('class','chart'); 
+
+
+          /*
+            Dimple.js Chart construction code
+          */
+
+          // Default chart on page load
+          var myChart = new dimple.chart(svg, data);          
+          var x= myChart.addCategoryAxis("x", ["Pclass"]);
+          x.addOrderRule(["Upper Class", "Middle Class", "Lower Class"]);
+          var y= myChart.addPctAxis("y", "Survived");          
+          var series = myChart.addSeries("person",dimple.plot.bar); //1. person 2. Alone  3. Embarked
+          var legend = myChart.addLegend(100,20, 800, 30, "left");
+          x.title= "Class of Passengers"
+          y.title= "Survived Passengers (Total 891)"
+
+          // Increase the font size of x and y axis
+          x.fontSize = 15
+          y.fontSize = 15
+
+          //Increase the size of the legend
+          legend.fontSize = 15
+
+          myChart.draw();         
+
+          //Select the first button - default
+          d3.select("#btn_person")            
+            .style("background", "lightBlue")
+            .style("color", "white");
+
+          d3.select("#btn_alone")            
+            .style("background", "rgb(251, 201, 127)")
+            .style("color", "black");
+
+            d3.select("#btn_embarked")            
+            .style("background", "rgb(251, 201, 127)")
+            .style("color", "black");
+
+          //clear the buttons selections (resets button color)
+          function clear(){
+
+            d3.select("#btn_person")            
+            .style("background", "rgb(251, 201, 127)")
+            .style("color", "black");
+
+            d3.select("#btn_alone")            
+            .style("background", "rgb(251, 201, 127)")
+            .style("color", "black");
+
+            d3.select("#btn_embarked")            
+            .style("background", "rgb(251, 201, 127)")
+            .style("color", "black");
+
+          };
+
+          
+
+          //Button click events
+          var family = d3.select("#btn_alone").on("click", function() {
+            clear();
+            var series1 = myChart.addSeries( "Alone", dimple.plot.bar )
+            legend.series = [ series1 ]
+            //myChart.addSeries("Alone", dimple.plot.bar)
+            //myChart.legends.pop()
+            //myChart.addLegend(100,20, 800, 30, "left")            
+            myChart.draw(750)
+            d3.selectAll("rect")
+            .style("opacity", 1);
+
+            ////Selected button styling 
+            d3.select("#btn_alone")            
+            .style("background", "lightBlue")
+            .style("color", "white");
+
+            });
+
+          var location = d3.select("#btn_embarked").on("click", function() {
+            clear();
+            var series2 = myChart.addSeries("Embarked", dimple.plot.bar)
+            legend.series = [series2]
+            myChart.draw(750)
+            d3.selectAll("rect")
+            .style("opacity", 1);
+
+            //Selected button styling
+            d3.select("#btn_embarked")            
+            .style("background", "lightBlue")
+            .style("color", "white");
+            });
+
+          var gender = d3.select("#btn_person").on("click", function() {
+            clear();
+            var series3 = myChart.addSeries("person", dimple.plot.bar)
+            legend.series = [series3]
+            myChart.draw(750)
+            d3.selectAll("rect")
+            .style("opacity", 1);
+
+            ////Selected button styling
+            d3.select("#btn_person")            
+            .style("background", "lightBlue")
+            .style("color", "white");
+            });
+
+
+       };
+      </script>
+  </head>  
+<body>
+  <script type="text/javascript">
+  /*
+    Use D3 (not dimple.js) to load the CSV file
+    and pass the contents of it to the draw function
+    */
+  d3.csv("titanic_data_modified.csv", draw);
+  </script>
+
+</body>
+</html>
