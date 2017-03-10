@@ -75,7 +75,7 @@ Final version of the data visualization is shown below:
 
 ![Final Chart](https://github.com/prasadpagade/Data-Analyst-Science-Nanodegree/blob/master/P6%20-%20Data%20Visualization/Images/final_version.PNG)
 
-[Link to the Visualization](http://bl.ocks.org/prasadpagade/raw/92b4f7fd86e762975fbf7046a92718e1/)
+[Link to the Visualization](http://bl.ocks.org/prasadpagade/raw/00afd74899b680f25ce27a7c6a8aacc7/)
 
 ### Resources
 
