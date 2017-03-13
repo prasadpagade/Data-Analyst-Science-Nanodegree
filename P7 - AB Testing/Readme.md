@@ -221,5 +221,33 @@ But it was not successful in affecting more students who enrolled to continue pa
 increased the rate at which students left before the trail period. Based on this evidence, we should not launch this experiment
 
 
-Follow-Up Experiment
-Give a high-level description of the follow up experiment you would run, what your hypothesis would be, what metrics you would want to measure, what your unit of diversion would be, and your reasoning for these choices.
+#### Follow-Up Experiment
+
+> Give a high-level description of the follow up experiment you would run, what your hypothesis would be, what metrics you would want to measure, what your unit of diversion would be, and your reasoning for these choices.
+
+From our experiment, we found that the number of students retained past the 14 day trail did not improve. My suggestion to 
+improve the net conversion would be to motivate students at day 7 by showing them series of success stories of past students - who initially struggled, then succeeded through course to eventually make a transition to a new career. 
+
+**Hypothesis** : The success stories pop-up will motivate students and increase the rentention past the 14-day trial period.
+
+**Null Hypothesis**: The success stories pop-up will worsen the retention past 14-day trail period.
+
+**Invariant Metric**: The invariant metric would be user-ids as we would equally distribute students to either control group or
+experiment group.
+
+**Unit of Diversion**: The unit of diversion would be user-id as the experiment will show up when the students enroll the course
+and progress through it during the 14 day trial period.
+
+**Unit of Evaluation**: The unit of evaluation would be retention as we would like to track if there was an increase in number of
+students who saw the experiment enrolled past the 14 day trial period. A statistically and practically significant increase in retention would enable us to launch this experiment.
+
+
+
+
+
+
+
+
+
+
+
