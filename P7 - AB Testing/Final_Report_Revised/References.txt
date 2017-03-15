@@ -1,0 +1,4 @@
+References:
+http://www.evanmiller.org/ab-testing/sample-size.html
+https://en.wikipedia.org/wiki/Bonferroni_correction
+https://www.quora.com/What-kind-of-A-B-testing-questions-should-I-expect-in-a-data-scientist-interview-and-how-should-I-prepare-for-such-questions
