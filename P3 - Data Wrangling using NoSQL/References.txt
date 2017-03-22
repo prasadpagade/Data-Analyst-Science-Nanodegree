@@ -1,0 +1,6 @@
+Web sites: 
+	mapzen: https://mapzen.com/data/metro-extracts
+	OpenStreetMap Wiki: http://wiki.openstreetmap.org/wiki/OSM_XML
+Other sources:
+	Lesson 6 of lectures.
+	www.mongoDB.com
