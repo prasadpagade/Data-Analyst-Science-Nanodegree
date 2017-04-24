@@ -38,3 +38,6 @@ Intro to Machine Learning
 Data Visualization and D3.js
 
 Design & Analyze A/B Testing
+
+## Certificate:
+![Data Analyst Nanodegree](https://github.com/prasadpagade/Data-Analyst-Science-Nanodegree/blob/master/Graduation%20Certificate/certificate.pdf)
