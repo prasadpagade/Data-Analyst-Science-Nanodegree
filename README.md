@@ -17,7 +17,7 @@ Project 3 - [Data Wrangle OpenStreetMaps Data (Python and MongoDB)](https://gith
 
 Project 4 - [Explore and Summarize Red Wine data (R - ggplot2, knitr, plyr etc.)](https://github.com/prasadpagade/Data-Analyst-Science-Nanodegree/blob/master/P4%20-%20R%20EDA/Readme_Final_Report.pdf)
 
-Project 5 - [Identifying Fraud from Enron Email & Financial Dataset(Python - SciPy)](https://github.com/prasadpagade/Data-Analyst-Science-Nanodegree/tree/master/P5%20-%20Machine%20Learning)
+Project 5 - [Identifying Fraud from Enron Email & Financial Dataset using Machine Learning(Python - SciPy)](https://github.com/prasadpagade/Data-Analyst-Science-Nanodegree/tree/master/P5%20-%20Machine%20Learning)
 
 Project 6 - [Make Effective Data Visualization for Titanic Dataset (D3.js)](http://bl.ocks.org/prasadpagade/raw/00afd74899b680f25ce27a7c6a8aacc7/)
 
